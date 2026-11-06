@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>방법 — 책 출간의 역사</title><meta name="description" content="필사본에서 전자책까지 — 한 해에 책이 몇 종 나왔는지, 세는 방법과 함께 본다">
+<script>(function(){var q=new URLSearchParams(location.search).get("theme");if(q==="light"||q==="dark"){localStorage.setItem("bph-theme",q)}else if(q==="auto"){localStorage.removeItem("bph-theme")}var v=localStorage.getItem("bph-theme");if(v)document.documentElement.setAttribute("data-theme",v)})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light;--bg:#f8f7f4;--bg2:#efede8;--card:#ffffff;--line:#dedbd3;--line2:#ebe8e1;--fg:#1d1f24;--fg2:#5a5e68;--fg3:#8a8e98;
+--accent:#1f6f9a;--accent2:#b5603a;--k1:#1679a6;--k2:#b5603a;--k3:#7a56a3;--k4:#6a8030;--grid:#e6e3dc;--gap:#efede8;
+--shadow:0 1px 2px rgba(30,32,40,.05),0 6px 18px rgba(30,32,40,.05);
+--display:"Noto Serif KR","Source Serif 4",Georgia,serif;--body:"Noto Sans KR",-apple-system,"Segoe UI","Apple SD Gothic Neo",Roboto,sans-serif}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#1b1c1f;--bg2:#222326;--card:#232428;--line:#34363c;--line2:#2b2d32;--fg:#ebe9e4;--fg2:#b3b1aa;--fg3:#80827f;--accent:#6fb0d8;--accent2:#d08a62;--k1:#3a8cc0;--k2:#c4704a;--k3:#9474bd;--k4:#82964a;--grid:#2e3035;--gap:#26272b;--shadow:0 1px 2px rgba(0,0,0,.3),0 8px 20px rgba(0,0,0,.25)}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#1b1c1f;--bg2:#222326;--card:#232428;--line:#34363c;--line2:#2b2d32;--fg:#ebe9e4;--fg2:#b3b1aa;--fg3:#80827f;--accent:#6fb0d8;--accent2:#d08a62;--k1:#3a8cc0;--k2:#c4704a;--k3:#9474bd;--k4:#82964a;--grid:#2e3035;--gap:#26272b;--shadow:0 1px 2px rgba(0,0,0,.3),0 8px 20px rgba(0,0,0,.25)}
+*{box-sizing:border-box}html,body{max-width:100%;overflow-x:hidden}
+body{margin:0;font:16px/1.7 var(--body);background:var(--bg);color:var(--fg);overflow-wrap:anywhere;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline;text-underline-offset:3px}:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:.55rem 1.1rem;display:flex;gap:1.2rem;align-items:center;flex-wrap:wrap}
+header .brand{font-family:var(--display);font-weight:600;font-size:1.05rem;color:var(--fg)}
+header nav{display:flex;gap:.9rem;flex-wrap:wrap}header nav a{color:var(--fg2);font-size:.92rem;border-bottom:2px solid transparent}header nav a:hover{text-decoration:none;color:var(--fg)}header nav a.on{color:var(--fg);border-bottom-color:var(--accent2)}
+header .right{margin-left:auto;display:flex;gap:.6rem;align-items:center}
+header .lang{font-size:.88rem;color:var(--fg2);border:1px solid var(--line);border-radius:999px;padding:.15rem .7rem}header .lang:hover{text-decoration:none;color:var(--fg)}
+.theme{border:1px solid var(--line);background:transparent;color:var(--fg2);border-radius:999px;width:30px;height:30px;cursor:pointer;font-size:.9rem;line-height:1;padding:0}
+main{max-width:980px;margin:0 auto;padding:1.6rem 1.1rem 4rem;min-width:0}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(1.6rem,3.2vw,2.2rem);line-height:1.25;margin:.3rem 0 .6rem;text-wrap:balance}
+h2{font-family:var(--display);font-weight:600;font-size:1.25rem;line-height:1.3;margin:2.2rem 0 .7rem;padding-bottom:.35rem;border-bottom:1px solid var(--line);text-wrap:balance}
+.eyebrow{color:var(--fg3);font-size:.84rem;letter-spacing:.03em}
+.hero{padding:.6rem 0 1.2rem;border-bottom:1px solid var(--line);margin-bottom:1.2rem}.hero h1{font-size:clamp(1.9rem,4vw,2.6rem)}.lead{color:var(--fg2);font-size:1.08rem;max-width:68ch}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:.8rem;margin:.9rem 0 1.4rem}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.85rem 1rem .9rem;box-shadow:var(--shadow);color:var(--fg)}a.card:hover{text-decoration:none;border-color:var(--fg3)}
+.card b{display:block;margin-bottom:.15rem;color:var(--accent)}.card .yr{font-size:.8rem;color:var(--fg3)}.card small{display:block;color:var(--fg2);font-size:.88rem;line-height:1.5;margin-top:.3rem}
+:lang(ko) p,:lang(ko) li,:lang(ko) .lead,:lang(ko) blockquote,:lang(ko) figcaption,:lang(ko) .card small{word-break:keep-all;overflow-wrap:anywhere}
+.prose p,.prose ul,.prose blockquote{max-width:72ch}.prose p{margin:.8rem 0}.prose ul{padding-left:1.2rem}.prose li{margin:.3rem 0}
+blockquote{border-left:4px solid var(--accent);background:var(--bg2);border-radius:0 10px 10px 0;padding:.75rem 1.1rem;margin:.8rem 0 1.4rem}blockquote p{margin:0}
+table{border-collapse:collapse;width:100%;font-size:.9rem;margin:.6rem 0}th,td{border-bottom:1px solid var(--line2);padding:.42rem .6rem;text-align:left;vertical-align:top}
+thead th{color:var(--fg2);font-weight:600;font-size:.84rem;border-bottom:1px solid var(--line)}tbody tr:nth-child(even){background:color-mix(in srgb,var(--bg2) 55%,transparent)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card);padding:0 .3rem;margin:.6rem 0 1rem}.wrap table{margin:0}.wrap th,.wrap td{overflow-wrap:normal;word-break:normal}:lang(ko) .wrap td{word-break:keep-all}
+figure{margin:1.2rem 0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1rem 1rem .8rem;box-shadow:var(--shadow)}
+figure h3{margin:0 0 .3rem;font-size:1rem}figcaption{font-size:.86rem;color:var(--fg2);margin-top:.5rem;line-height:1.5}
+.chart{overflow-x:auto}svg{max-width:100%;height:auto;display:block}svg text{font-family:var(--body);fill:var(--fg2);font-size:13px}svg .grid{stroke:var(--grid)}svg .ax{stroke:var(--line)}
+svg .hit:hover{stroke:var(--fg);stroke-width:1.5}svg .cell:hover{stroke:var(--fg);stroke-width:1.5}
+.legend{display:flex;gap:1rem;font-size:.85rem;color:var(--fg2);flex-wrap:wrap;margin:.2rem 0 .5rem}.legend span::before{content:"";display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:.35rem;vertical-align:-1px;background:var(--c)}
+.legend span.d::before{background:repeating-linear-gradient(90deg,var(--c) 0 4px,transparent 4px 7px);height:3px;vertical-align:3px}
+.legend span.h::before{background:repeating-linear-gradient(45deg,var(--fg3) 0 1.5px,transparent 1.5px 4px);border:1px solid var(--fg3)}
+details{margin-top:.6rem}summary{cursor:pointer;color:var(--fg2);font-size:.88rem}
+.pn{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;border-top:1px solid var(--line);margin-top:2.4rem;padding-top:1rem;font-size:.92rem}.pn a[rel=next]{margin-left:auto;text-align:right}.pn small{display:block;color:var(--fg3)}
+.files a{display:inline-block;font-size:.85rem;background:var(--bg2);border:1px solid var(--line2);border-radius:6px;padding:.15rem .55rem;margin:.2rem .3rem .2rem 0;color:var(--fg2)}
+footer{border-top:1px solid var(--line);color:var(--fg3);font-size:.82rem;padding:1.2rem;text-align:center}
+@media(max-width:640px){.chart svg{min-width:640px}.chart svg text{font-size:13px}header{gap:.6rem}}
+</style></head><body>
+<header><a class="brand" href="../ko/index.html">책 출간의 역사</a><nav><a href="../ko/index.html">처음</a><a href="../ko/ch0.html">장</a><a href="../ko/data.html">데이터</a><a href="../ko/method.html" class="on">방법</a></nav>
+<div class="right"><button id="theme" class="theme" type="button" aria-label="테마">◑</button><a class="lang" href="../en/method.html">English</a></div></header>
+<main><h1>방법</h1><div class="prose"><h2>세 층의 숫자</h2>
+<p>이 사이트의 숫자는 세 층으로 나뉜다.</p>
+<div class="wrap"><table>
+<thead>
+<tr>
+<th>층</th>
+<th>무엇인가</th>
+<th>예</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>모아 정리</td>
+<td>다른 연구가 낸 추계를 그대로 옮겨 다시 그린 것</td>
+<td>Buringh·van Zanden 필사본·인쇄본 추계, Fink-Jensen 인구당 신간</td>
+</tr>
+<tr>
+<td>공식 표</td>
+<td>국가·업계 통계표에서 옮긴 것</td>
+<td>한국 출협, 일본 통계국, 중국 국가통계국, 미국 인구조사국, WIPO</td>
+</tr>
+<tr>
+<td>직접 계수</td>
+<td>공개 서지 데이터를 이 사이트가 다시 센 것</td>
+<td>VD16~18, STCN, ISTC, KORCIS</td>
+</tr>
+</tbody>
+</table></div>
+<h2>직접 계수의 규칙</h2>
+<p>규칙은 계수하기 전에 적어 두고 그 시점을 버전 기록(git 커밋)에 남겼다. 결과를 본 뒤 고친 것은 다음 절에 모두 적었다.</p>
+<p><strong>VD16·VD17·VD18.</strong> 베를린 국립도서관이 2025년 공개한 통합 메타데이터(CC0, 750,342행)에서 실물 자료(서지 갈래 칸이 A로 시작)이면서 단행본(a) 또는 여러 권짜리 책 전체(c)인 레코드만 셌다. 낱권(f), 정기간행물(b·v), 딸린 저작(s)은 뺐다. VD16·17·18 번호 가운데 하나가 있어야 한다. 출판 연도는 날짜 칸 맨 앞의 네 자리 수(정규화된 연도)다. 1450~1830년 밖이거나 네 자리 수가 없는 레코드는 따로 세어 감사 파일에 남겼다(연도 없음 944, 범위 밖 6). 언어는 언어 칸의 첫 코드다. 「ger$clat」처럼 원저 언어를 표시한 코드($c)는 본문 언어로 보지 않는다.</p>
+<p><strong>STCN.</strong> 네덜란드 국립도서관 연결 데이터에서 STCN 데이터셋에 속한 「Book」 개체 217,761개를 셌다. 출판 연도는 출판 사건의 시작일 앞 네 자리다. 「17XX」처럼 십 년·백 년 단위로만 적힌 19,389건은 연도 미상으로 뺐다. 언어 값에는 순서가 없으므로, 하나면 그 언어, 둘 이상이면 「복수」로 묶었다. 엔드포인트가 1만 행 넘는 정렬 조회를 받지 않아 집계는 서버에서 했다.</p>
+<p><strong>ISTC.</strong> 영국도서관 2025년 공개본(CC BY-NC 4.0) 30,587건에서 단일 연도가 있으면 그 해를, 범위만 있으면 시작 연도를 썼다(5,155건). 연도가 없는 87건은 뺐다. 1500년 뒤로 적힌 1,970건은 따로 세고, 그림은 1452~1500년만 그린다. 레코드는 다시 배포하지 않고 집계만 싣는다.</p>
+<p><strong>KORCIS.</strong> 국립중앙도서관 한국고문헌종합목록 Open API는 검색어로만 조회된다. 미리 정한 검색어 20개(숫자 0~9, 卷·朝鮮·未詳·集·書·記·錄·文·經·傳)의 결과를 모두 받아 레코드 번호로 중복을 지웠다. 숫자만으로 찾으면 연도가 적힌 레코드에 치우치므로 「未詳」과 「朝鮮」(「朝鮮後期」 같은 시기 표기를 잡는다)을 넣었다. 이 숫자는 「현존 소장 레코드」이며 간행 종수가 아니다. 같은 책이 소장처마다 따로 잡힌다.</p>
+<h2>결과를 본 뒤 고친 것</h2>
+<p>VD 출판지 계산에서, 처음 결과를 보니 비어 있는 출판지가 「nan」이라는 이름의 도시로 세어졌고, 같은 도시가 「Leipzig」와 전거 번호가 붙은 「!104798998!Leipzig ; ID: gnd/4035206-7」로 나뉘어 있었다. 빈칸은 「출판지 없음」으로 돌리고, 전거 표시를 떼고 문장부호를 지운 이름으로 묶었다. 연도와 언어 계수는 바뀌지 않았다.</p>
+<p>KORCIS 연도 판독에서, 표본을 보니 발행년 칸 일부가 CJK 호환 한자로 적혀 있어(14,976칸, 가장 많은 것은 不의 호환 문자 U+F967) 「미상」 표기를 놓쳤다. 판독 전에 유니코드 정규화(NFKC)를 하도록 고쳤다.</p>
+<p>독립 검증자가 원자료와 위 규칙만으로 다시 센 결과와 맞대면서 코드가 규칙을 벗어난 곳 네 군데를 고쳤다. ISTC는 문서에 없던 연도 제한(1440~1520년)으로 날짜가 있는 84건을 「미상」에 넣고 있었고, 「 1485」처럼 앞에 공백이 있는 날짜 1건을 놓쳤다. KORCIS는 明治·大正·昭和가 연호 목록에 없어 55건이 「기타」로 갔다. KORCIS 묶음 열쇠의 정확한 정의와 VD 출판지 목록 칸의 따옴표 처리도 바로잡았다. 고친 뒤의 값이 이 사이트에 실린 값이다.</p>
+<h2>옮겨 적은 표의 확인</h2>
+<div class="wrap"><table>
+<thead>
+<tr>
+<th>표</th>
+<th>확인 방법</th>
+<th>결과</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>미국 HSUS R 192~217</td>
+<td>두 사람이 서로 보지 않고 따로 전사해 맞댐</td>
+<td>868칸 중 다른 칸 0. 1950~1970년 주제 23열의 합이 신간과 모두 같음</td>
+</tr>
+<tr>
+<td>한국 출협 1946~2025</td>
+<td>PDF 텍스트 층에서 추출, 쪽 이미지와 12개 연도 전 열 대조</td>
+<td>모두 일치</td>
+</tr>
+<tr>
+<td>중국 통계연감 2024 표 23-1</td>
+<td>이미지 표를 손으로 옮기고 OCR과 맞댐</td>
+<td>75칸 중 74칸 일치, 나머지 1칸은 확대 이미지로 확정</td>
+</tr>
+<tr>
+<td>일본 통계국 표</td>
+<td>엑셀 원본에서 읽음. 표 26-1과 26-2-a의 총계, 2005년 장기 통계와 연감 값 대조</td>
+<td>모두 일치</td>
+</tr>
+</tbody>
+</table></div>
+<h2>출처 사이에서 발견한 것</h2>
+<ul>
+<li>중국 1990년 신간: 통계연감 1999년판 55,254종, 2024년판 55,245종.</li>
+<li>『고사촬요』 책판목록: 도별 수의 합 987종, 본문 총계 989종(한국민족문화대백과사전).</li>
+<li>Our World in Data 필사본 표: 프랑스만 세기 시작이 아니라 50년을 더한 연도(550, 650 …)에 실려 있다.</li>
+<li>Our World in Data 인쇄본 표: 해설은 단위를 「title or edition」이라 하고, 값은 같은 기간 ISTC 판 수의 약 441배다.</li>
+<li>한국 출협 계열: 출판사 수가 1969년 1,962곳에서 1970년 1,016곳, 발행 부수가 1998년 157,510,364부에서 1999년 75,840,951부로 바뀐다. 두 곳 모두 각주에 정의 변경 표시가 없다.</li>
+</ul>
+<h2>하지 않은 것</h2>
+<ul>
+<li>서로 다른 출처를 하나의 줄로 이어 붙이지 않았다.</li>
+<li>인구당 값을 새로 계산하지 않았다(Fink-Jensen 표만 다시 그렸다).</li>
+<li>저자·출판사의 순위, 베스트셀러 목록, 여성 저자 비중은 다루지 않았다.</li>
+</ul>
+<h2>판 이력</h2>
+<ul>
+<li>1.0.0 — 첫 공개.</li>
+</ul></div></main>
+<footer>책 출간의 역사 · 판 1.0.0 · 생성 2026-11-07 · <a href="https://github.com/BowonKwon/Book-Publishing-History">GitHub</a> · 다른 사이트 <a href="https://bowonkwon.github.io/">bowonkwon.github.io</a></footer>
+<script>(function(){var k="bph-theme",r=document.documentElement,b=document.getElementById("theme");function ap(v){if(v)r.setAttribute("data-theme",v);else r.removeAttribute("data-theme");if(b)b.textContent=v==="dark"?"\u263E":v==="light"?"\u2600":"\u25D1"}var cur=localStorage.getItem(k)||"";ap(cur);if(b)b.addEventListener("click",function(){cur=cur===""?"light":cur==="light"?"dark":"";if(cur)localStorage.setItem(k,cur);else localStorage.removeItem(k);ap(cur)})})();</script></body></html>

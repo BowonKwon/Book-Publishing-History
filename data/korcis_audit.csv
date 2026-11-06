@@ -1,0 +1,27 @@
+item,value
+unique_records,272115
+query 0 total/new,13995/13995
+query 1 total/new,112588/99190
+query 2 total/new,39323/9402
+query 3 total/new,30087/7043
+query 4 total/new,35091/4975
+query 5 total/new,27888/4001
+query 6 total/new,34843/98
+query 7 total/new,30314/2472
+query 8 total/new,29222/1759
+query 9 total/new,26688/1636
+query 卷 total/new,75401/3549
+query 朝鮮 total/new,107307/70377
+query 未詳 total/new,43718/36521
+query 集 total/new,7666/3048
+query 書 total/new,5581/3274
+query 記 total/new,762/374
+query 錄 total/new,1898/1054
+query 文 total/new,2717/1437
+query 經 total/new,1399/826
+query 傳 total/new,1083/617
+bin_year,95833
+bin_after_1910,64497
+bin_era_or_ganji_only,3393
+bin_unknown,88881
+bin_other,19511

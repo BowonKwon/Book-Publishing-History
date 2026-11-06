@@ -1,0 +1,300 @@
+geonames_id,place_label,editions
+3164603,Venice,3675
+6455259,Paris,3209
+3169071,Rome,2038
+2886242,Cologne,1573
+2996944,Lyons,1456
+2879139,Leipzig,1406
+6557107,Augsburg,1259
+2973783,Strassburg,1185
+6542283,Milan,1097
+2861650,Nuremberg,1060
+3176959,Florence,845
+7285161,Basel,817
+2756987,Deventer,620
+3181928,Bologna,549
+2803138,Antwerp,459
+2874225,Mainz,417
+2820256,Ulm,384
+3171366,Pavia,336
+2830582,Speyer,317
+3172395,Naples,309
+3181554,Brescia,282
+2875601,Lübeck,281
+2792482,Louvain,252
+2750405,The Netherlands,241
+6558157,Reutlingen,233
+2634341,Westminster,215
+6454707,Rouen,198
+none,Southern Netherlands,179
+3171728,Padua,173
+2643743,London,168
+3111108,Salamanca,165
+2510911,Seville,158
+2757345,Delft,151
+2743477,Zwolle,150
+3220886,Memmingen,149
+6556725,Bamberg,136
+3128760,Barcelona,135
+2874545,Magdeburg,133
+6453974,Toulouse,127
+6549746,Erfurt,121
+3104324,Zaragoza,120
+6299592,Ferrara,117
+2755420,Gouda,115
+3127460,Burgos,112
+2660646,Geneva,105
+6540118,Treviso,102
+6541465,Vicenza,101
+2761369,Vienna,98
+6445329,Poitiers,98
+2907911,Heidelberg,89
+2805615,Würzburg,89
+2509954,Valencia,85
+6540120,Parma,82
+3173331,Modena,81
+6556451,Passau,81
+6541466,Siena,74
+2754966,Hagenau,67
+3171180,Perugia,63
+2745912,Utrecht,60
+3165524,Turin,58
+3174051,Mantua,55
+2925177,Freiburg im Breisgau,52
+2751773,Leiden,52
+3175395,Italy,52
+6361828,Toledo,50
+2818246,Urach,48
+6541865,Verona,44
+2895992,Ingolstadt,39
+2928751,Esslingen,38
+2800866,Brussels,37
+2969284,Vienne,35
+2800931,Bruges,34
+2867714,Munich,34
+6541851,Cremona,31
+6539734,Pescia,28
+3118514,Lérida,27
+3169521,Reggio Emilia,26
+6537223,Soncino,26
+6948375,Messina,25
+2755002,Haarlem,25
+2844588,Rostock,25
+2820860,Tübingen,25
+3120511,Huete,25
+2803448,Deventer [i.e. Alost,24
+6362308,Valladolid,24
+6558505,Blaubeuren,24
+2797656,Ghent,23
+2853969,Pforzheim,23
+2747505,Schoonhoven,22
+2873490,Marienthal,21
+3078610,Brünn,21
+3116235,Montserrat,21
+3038261,Albi,20
+3114472,Pamplona,20
+3067696,Prague,20
+2921044,Germany,20
+3104342,Zamora,20
+2267057,Lisbon,20
+3170647,Pisa,18
+2640729,Oxford,18
+2988506,Paris or Lyons,18
+6452361,Angers,18
+6454365,Metz,17
+2510769,Spain or Portugal,16
+2885679,Southern Germany (Constance?),16
+2932069,Eichstätt,16
+3173162,Mondovì,15
+3121070,Guadalajara,15
+3068160,Pilsen,14
+2747351,'s-Hertogenbosch,13
+3165243,Trent,13
+2789529,Audenarde,13
+2673730,Stockholm,13
+6453634,Troyes,12
+3175121,Aquila,11
+2657896,Zürich,11
+3017382,France,11
+3094802,Cracow,11
+7531292,Breslau,11
+3030402,Bréhan-Loudéac,11
+3176438,Gaeta,11
+6551140,Merseburg,10
+3037598,Angoulême,10
+2930646,Eltville,10
+6556611,Regensburg,9
+3109256,Segovia,9
+3027422,Chambéry,9
+3118150,Logroño,9
+6540662,Pinerolo,9
+6542121,Lucca,9
+2638867,St. Albans,8
+2857167,Oppenheim,8
+2972191,Tours,8
+2982652,Rouen or Paris,8
+2524907,Cosenza,7
+3165357,Toscolano,7
+3033123,Besançon,7
+2941405,Burgdorf,7
+6441180,Kirchheim in Elsass,7
+3120763,Híjar,7
+6455329,Chablis,7
+2867543,Münster in Westfalen,7
+3108288,Tarragona,7
+6550942,Stendal,7
+3101795,Poland (Chelmno?),7
+2911298,Hamburg,7
+2754779,Hasselt,7
+2513416,Murcia,6
+2661542,Beromünster,6
+3175628,Iesi,6
+6455379,Avignon,6
+2875115,Lüneburg,6
+3178402,Colle di Valdelsa,5
+3176219,Genoa,5
+6453767,Dijon,5
+8012366,Leiria,5
+3167034,Savigliano,5
+3181277,Cagli,5
+6434483,Nantes,5
+3007522,Lantenac,5
+2971041,Valenciennes,5
+6536808,Fivizzano,5
+3121456,Gerona,5
+3125826,Castile,5
+2517117,Granada,4
+6556942,Würzburg,4
+2971929,Tréguier,4
+6454729,Provins,4
+6469677,Faro,4
+6542025,Piacenza,4
+2803620,Zweibrücken,4
+6427109,Caen,4
+2750053,Nijmegen,4
+3116320,Monterrey,4
+2618425,Copenhagen,4
+2925034,Freising,4
+3202641,Cetinje,4
+6541817,Torrebelvicino,4
+745044,Constantinople,4
+3176746,Forlì,4
+2838634,Schleswig,4
+3099434,Danzig,3
+6542055,Como,3
+2807788,Winterberg,3
+3130616,Alcalá,3
+719819,Hungary,3
+6541832,Scandiano,3
+6540526,Subiaco,3
+6455375,Abbeville,3
+3069011,Olmütz,3
+2757872,Culemborg,3
+2976413,Salins,3
+6453300,Mallorca,3
+6538616,Foligno,3
+3165035,Urbino,3
+2825297,Stuttgart,3
+3027487,Châlons-en-Champagne,3
+2996882,Mâcon,3
+3178605,Cividale,3
+2925535,Frankfurt (Oder),3
+6540119,Udine,3
+6454071,Grenoble,3
+3167022,Savona,2
+3127461,Burgos or Valladolid,2
+8952484,Barco,2
+2872155,Meissen,2
+2880099,Lauingen,2
+3171727,Italy (Padua?),2
+6540493,Trevi,2
+3054667,Buda,2
+2988507,Paris and Bourges,2
+6432801,Rennes,2
+3166399,Soncino or Naples,2
+3172217,Nonantola,2
+3024534,Cluny,2
+6448031,Chartres,2
+6440996,Perpignan,2
+2998286,Limoges,2
+2615876,Odense,2
+2971258,Uzès,2
+6941869,Schiedam,2
+2835635,Schussenried,2
+2954172,Augsburg or Nuremberg,2
+3191055,Senj,2
+6955317,Caselle,2
+3180208,Casale Monferrato,2
+2987967,Périgueux,2
+2525473,Cagliari,2
+6554291,Trier,2
+6540126,Forlì,2
+2951839,Bavaria,2
+2519233,Coria,2
+2735943,Oporto,2
+7286283,Lausanne,2
+ ,Turin,2
+6542152,Ascoli Piceno,2
+3092472,Marienburg,2
+ 2875601,Lübeck,2
+3177219,Fano,2
+734077,Salonica,2
+3172170,Novi,2
+2264397,Portugal,2
+2658440,Sursee,2
+3171173,Pesaro,2
+6540434,Faenza,1
+3168609,Saluzzo or Turin,1
+6543229,Sabbioneta,1
+2810581,Wessobrunn,1
+6538052,Chivasso,1
+3168483,San Cesario,1
+3072463,Kuttenberg,1
+2977880,Saint-Nicolas de Port,1
+3165361,Italy (Tuscany?),1
+3170842,San Germano,1
+2742032,Braga,1
+2952984,Bamberg or Nuremberg,1
+6541985,Capua,1
+6446638,Embrun,1
+2990919,Narbonne,1
+2991325,Moûtiers,1
+6552297,Braunschweig,1
+2857798,Offenburg,1
+2740761,Chaves,1
+3173722,Matelica,1
+3021263,Dôle,1
+2847603,Rheinstein (Fautsberg),1
+6541102,Colle di Val d'Elsa,1
+6556450,Landshut,1
+2989317,Orléans,1
+3015563,Goupillières,1
+2665902,Vadstena,1
+2759794,Amsterdam,1
+3114965,Galicia (Orense?),1
+3178957,Cesena,1
+2936977,Dillingen,1
+2925192,Freiberg in Sachsen,1
+3164565,Vercelli,1
+3177977,Cortemaggiore,1
+2887390,Zinna,1
+2823679,Tegernsee,1
+3107677,Tortosa,1
+6539909,Saluzzo,1
+6536502,Castano Primo,1
+2929670,Erfurt,1
+6538120,Trino,1
+2633352,York,1
+6453864,Rougemont,1
+3170831,Piedmont or Southern France,1
+2710622,Gripsholm,1
+2747241,St. Maartensdijk,1
+2792413,Liège,1
+6540107,Viterbo,1
+2871736,Merseburg or Lübeck,1
+2523630,Reggio di Calabria,1
+6542127,Palermo,1
+6621589,Portese,1
+3163995,Voghera,1
+6269131,England,1
+6544028,Nozzano,1

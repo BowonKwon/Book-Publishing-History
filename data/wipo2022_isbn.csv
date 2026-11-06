@@ -1,0 +1,8 @@
+country,isbn_2021,isbn_2022,note
+Republic of Korea,340506,338237,
+Japan,184985,902311,
+US,2884609,3279217,
+UK,168960,153167,
+Germany,284000,277000,
+France,,,not in table 5
+China,,,"""China's 2022 data ... are unavailable"" (p. 21)"

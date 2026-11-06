@@ -1,0 +1,9 @@
+step,rows
+records,30587
+counted,30500
+range_dated_start_used,5155
+dated_after_1500,1970
+undated,87
+datefield:date_of_item_single_date,25429
+datefield:date_of_item_from,5156
+datefield:date_of_item_to,5157

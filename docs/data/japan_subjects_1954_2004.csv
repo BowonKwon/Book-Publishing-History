@@ -1,0 +1,664 @@
+year,subject,titles
+1954,Generalities,177
+1954,Philosophy,471
+1954,History,437
+1954,Social sciences,1691
+1954,Natural sciences,707
+1954,Engineering,799
+1954,Business,507
+1954,Arts,643
+1954,Languages,267
+1954,Literature,2472
+1954,Children's books,2833
+1954,Reference books,
+1954,Total,11004
+1955,Generalities,372
+1955,Philosophy,582
+1955,History,608
+1955,Social sciences,1846
+1955,Natural sciences,804
+1955,Engineering,836
+1955,Business,588
+1955,Arts,806
+1955,Languages,302
+1955,Literature,3529
+1955,Children's books,1993
+1955,Reference books,776
+1955,Total,13042
+1956,Generalities,385
+1956,Philosophy,695
+1956,History,673
+1956,Social sciences,2172
+1956,Natural sciences,958
+1956,Engineering,1059
+1956,Business,710
+1956,Arts,1006
+1956,Languages,306
+1956,Literature,3830
+1956,Children's books,2231
+1956,Reference books,958
+1956,Total,14983
+1957,Generalities,289
+1957,Philosophy,572
+1957,History,617
+1957,Social sciences,2155
+1957,Natural sciences,885
+1957,Engineering,1061
+1957,Business,694
+1957,Arts,847
+1957,Languages,386
+1957,Literature,3179
+1957,Children's books,2392
+1957,Reference books,949
+1957,Total,14026
+1958,Generalities,313
+1958,Philosophy,609
+1958,History,712
+1958,Social sciences,2376
+1958,Natural sciences,919
+1958,Engineering,1116
+1958,Business,825
+1958,Arts,782
+1958,Languages,401
+1958,Literature,3205
+1958,Children's books,1961
+1958,Reference books,1039
+1958,Total,14258
+1959,Generalities,282
+1959,Philosophy,650
+1959,History,678
+1959,Social sciences,2478
+1959,Natural sciences,918
+1959,Engineering,1227
+1959,Business,840
+1959,Arts,767
+1959,Languages,379
+1959,Literature,3165
+1959,Children's books,1411
+1959,Reference books,839
+1959,Total,13634
+1960,Generalities,307
+1960,Philosophy,657
+1960,History,705
+1960,Social sciences,2579
+1960,Natural sciences,893
+1960,Engineering,1356
+1960,Business,812
+1960,Arts,698
+1960,Languages,368
+1960,Literature,2792
+1960,Children's books,1176
+1960,Reference books,779
+1960,Total,13122
+1961,Generalities,311
+1961,Philosophy,560
+1961,History,718
+1961,Social sciences,2275
+1961,Natural sciences,776
+1961,Engineering,1440
+1961,Business,764
+1961,Arts,799
+1961,Languages,319
+1961,Literature,2468
+1961,Children's books,1194
+1961,Reference books,644
+1961,Total,12268
+1962,Generalities,311
+1962,Philosophy,642
+1962,History,795
+1962,Social sciences,2223
+1962,Natural sciences,848
+1962,Engineering,1381
+1962,Business,761
+1962,Arts,806
+1962,Languages,328
+1962,Literature,2355
+1962,Children's books,1118
+1962,Reference books,725
+1962,Total,12293
+1963,Generalities,336
+1963,Philosophy,699
+1963,History,812
+1963,Social sciences,2431
+1963,Natural sciences,936
+1963,Engineering,1479
+1963,Business,808
+1963,Arts,797
+1963,Languages,383
+1963,Literature,2421
+1963,Children's books,1220
+1963,Reference books,660
+1963,Total,12982
+1964,Generalities,345
+1964,Philosophy,695
+1964,History,897
+1964,Social sciences,2607
+1964,Natural sciences,1083
+1964,Engineering,1595
+1964,Business,850
+1964,Arts,932
+1964,Languages,367
+1964,Literature,2490
+1964,Children's books,1117
+1964,Reference books,469
+1964,Total,13447
+1965,Generalities,347
+1965,Philosophy,740
+1965,History,982
+1965,Social sciences,2872
+1965,Natural sciences,1012
+1965,Engineering,1606
+1965,Business,806
+1965,Arts,900
+1965,Languages,341
+1965,Literature,2869
+1965,Children's books,1161
+1965,Reference books,602
+1965,Total,14238
+1966,Generalities,424
+1966,Philosophy,759
+1966,History,1141
+1966,Social sciences,3164
+1966,Natural sciences,1148
+1966,Engineering,1622
+1966,Business,671
+1966,Arts,1046
+1966,Languages,367
+1966,Literature,3102
+1966,Children's books,1045
+1966,Reference books,499
+1966,Total,14988
+1967,Generalities,443
+1967,Philosophy,939
+1967,History,1167
+1967,Social sciences,3442
+1967,Natural sciences,1184
+1967,Engineering,1584
+1967,Business,676
+1967,Arts,1084
+1967,Languages,353
+1967,Literature,3533
+1967,Children's books,1142
+1967,Reference books,572
+1967,Total,16119
+1968,Generalities,450
+1968,Philosophy,901
+1968,History,1189
+1968,Social sciences,3720
+1968,Natural sciences,1282
+1968,Engineering,1689
+1968,Business,718
+1968,Arts,1256
+1968,Languages,357
+1968,Literature,3529
+1968,Children's books,1299
+1968,Reference books,332
+1968,Total,16722
+1969,Generalities,367
+1969,Philosophy,881
+1969,History,1081
+1969,Social sciences,4201
+1969,Natural sciences,1326
+1969,Engineering,1822
+1969,Business,821
+1969,Arts,1472
+1969,Languages,408
+1969,Literature,3599
+1969,Children's books,1437
+1969,Reference books,418
+1969,Total,17833
+1970,Generalities,430
+1970,Philosophy,959
+1970,History,1156
+1970,Social sciences,4262
+1970,Natural sciences,1427
+1970,Engineering,1933
+1970,Business,894
+1970,Arts,1712
+1970,Languages,393
+1970,Literature,3593
+1970,Children's books,1407
+1970,Reference books,588
+1970,Total,18754
+1971,Generalities,463
+1971,Philosophy,1031
+1971,History,1411
+1971,Social sciences,4492
+1971,Natural sciences,1524
+1971,Engineering,2051
+1971,Business,983
+1971,Arts,1704
+1971,Languages,438
+1971,Literature,4101
+1971,Children's books,1493
+1971,Reference books,467
+1971,Total,20158
+1972,Generalities,457
+1972,Philosophy,1127
+1972,History,1476
+1972,Social sciences,4317
+1972,Natural sciences,1479
+1972,Engineering,2110
+1972,Business,953
+1972,Arts,1811
+1972,Languages,426
+1972,Literature,4341
+1972,Children's books,1647
+1972,Reference books,526
+1972,Total,20670
+1973,Generalities,374
+1973,Philosophy,1203
+1973,History,1587
+1973,Social sciences,4275
+1973,Natural sciences,1577
+1973,Engineering,1994
+1973,Business,918
+1973,Arts,1774
+1973,Languages,405
+1973,Literature,4430
+1973,Children's books,1421
+1973,Reference books,488
+1973,Total,20446
+1974,Generalities,396
+1974,Philosophy,1241
+1974,History,1584
+1974,Social sciences,4293
+1974,Natural sciences,1678
+1974,Engineering,1943
+1974,Business,1028
+1974,Arts,2144
+1974,Languages,424
+1974,Literature,4501
+1974,Children's books,1296
+1974,Reference books,412
+1974,Total,20940
+1975,Generalities,432
+1975,Philosophy,1211
+1975,History,1741
+1975,Social sciences,4551
+1975,Natural sciences,1781
+1975,Engineering,2022
+1975,Business,1003
+1975,Arts,2209
+1975,Languages,465
+1975,Literature,4973
+1975,Children's books,1503
+1975,Reference books,836
+1975,Total,22727
+1976,Generalities,481
+1976,Philosophy,1246
+1976,History,1525
+1976,Social sciences,4660
+1976,Natural sciences,1854
+1976,Engineering,2042
+1976,Business,950
+1976,Arts,3020
+1976,Languages,502
+1976,Literature,5029
+1976,Children's books,1695
+1976,Reference books,460
+1976,Total,23464
+1977,Generalities,548
+1977,Philosophy,1424
+1977,History,1660
+1977,Social sciences,5017
+1977,Natural sciences,2047
+1977,Engineering,2171
+1977,Business,1139
+1977,Arts,3100
+1977,Languages,467
+1977,Literature,5240
+1977,Children's books,1924
+1977,Reference books,411
+1977,Total,25148
+1978,Generalities,596
+1978,Philosophy,1354
+1978,History,1856
+1978,Social sciences,5562
+1978,Natural sciences,2082
+1978,Engineering,2439
+1978,Business,1180
+1978,Arts,3045
+1978,Languages,546
+1978,Literature,5516
+1978,Children's books,2173
+1978,Reference books,557
+1978,Total,26906
+1979,Generalities,546
+1979,Philosophy,1350
+1979,History,1922
+1979,Social sciences,5961
+1979,Natural sciences,2231
+1979,Engineering,2404
+1979,Business,1159
+1979,Arts,3071
+1979,Languages,513
+1979,Literature,5505
+1979,Children's books,2113
+1979,Reference books,402
+1979,Total,27177
+1980,Generalities,503
+1980,Philosophy,1456
+1980,History,1834
+1980,Social sciences,6251
+1980,Natural sciences,2300
+1980,Engineering,2552
+1980,Business,1129
+1980,Arts,3260
+1980,Languages,565
+1980,Literature,5571
+1980,Children's books,2102
+1980,Reference books,368
+1980,Total,27891
+1981,Generalities,821
+1981,Philosophy,1454
+1981,History,1921
+1981,Social sciences,6671
+1981,Natural sciences,2454
+1981,Engineering,2357
+1981,Business,1029
+1981,Arts,3448
+1981,Languages,637
+1981,Literature,5822
+1981,Children's books,2258
+1981,Reference books,490
+1981,Total,29362
+1982,Generalities,1012
+1982,Philosophy,1500
+1982,History,1912
+1982,Social sciences,6972
+1982,Natural sciences,2495
+1982,Engineering,2528
+1982,Business,1058
+1982,Arts,2892
+1982,Languages,612
+1982,Literature,5993
+1982,Children's books,2344
+1982,Reference books,716
+1982,Total,30034
+1983,Generalities,1028
+1983,Philosophy,1541
+1983,History,1974
+1983,Social sciences,7100
+1983,Natural sciences,2735
+1983,Engineering,2597
+1983,Business,1173
+1983,Arts,3233
+1983,Languages,671
+1983,Literature,6505
+1983,Children's books,2222
+1983,Reference books,518
+1983,Total,31297
+1984,Generalities,1171
+1984,Philosophy,1626
+1984,History,2101
+1984,Social sciences,7453
+1984,Natural sciences,2620
+1984,Engineering,2766
+1984,Business,1242
+1984,Arts,3500
+1984,Languages,533
+1984,Literature,6290
+1984,Children's books,2569
+1984,Reference books,486
+1984,Total,32357
+1985,Generalities,1224
+1985,Philosophy,1599
+1985,History,1983
+1985,Social sciences,7178
+1985,Natural sciences,2605
+1985,Engineering,2657
+1985,Business,1266
+1985,Arts,3107
+1985,Languages,599
+1985,Literature,6290
+1985,Children's books,2310
+1985,Reference books,403
+1985,Total,31221
+1986,Generalities,1442
+1986,Philosophy,1825
+1986,History,2283
+1986,Social sciences,8996
+1986,Natural sciences,3078
+1986,Engineering,3459
+1986,Business,1602
+1986,Arts,3170
+1986,Languages,706
+1986,Literature,6610
+1986,Children's books,2873
+1986,Reference books,972
+1986,Total,37016
+1987,Generalities,1384
+1987,Philosophy,1869
+1987,History,2275
+1987,Social sciences,9162
+1987,Natural sciences,2954
+1987,Engineering,3357
+1987,Business,1663
+1987,Arts,3063
+1987,Languages,715
+1987,Literature,6993
+1987,Children's books,2919
+1987,Reference books,656
+1987,Total,37010
+1988,Generalities,1558
+1988,Philosophy,1755
+1988,History,2526
+1988,Social sciences,9030
+1988,Natural sciences,2884
+1988,Engineering,3535
+1988,Business,1679
+1988,Arts,3112
+1988,Languages,796
+1988,Literature,7898
+1988,Children's books,2910
+1988,Reference books,614
+1988,Total,38297
+1989,Generalities,1622
+1989,Philosophy,1779
+1989,History,2561
+1989,Social sciences,9518
+1989,Natural sciences,2763
+1989,Engineering,3500
+1989,Business,1723
+1989,Arts,3359
+1989,Languages,813
+1989,Literature,8354
+1989,Children's books,2911
+1989,Reference books,795
+1989,Total,39698
+1990,Generalities,1780
+1990,Philosophy,1762
+1990,History,2481
+1990,Social sciences,9798
+1990,Natural sciences,2970
+1990,Engineering,3446
+1990,Business,1698
+1990,Arts,3348
+1990,Languages,826
+1990,Literature,8792
+1990,Children's books,2986
+1990,Reference books,689
+1990,Total,40576
+1991,Generalities,1852
+1991,Philosophy,2010
+1991,History,2627
+1991,Social sciences,10251
+1991,Natural sciences,3036
+1991,Engineering,3601
+1991,Business,1866
+1991,Arts,3785
+1991,Languages,849
+1991,Literature,8833
+1991,Children's books,2895
+1991,Reference books,740
+1991,Total,42345
+1992,Generalities,2065
+1992,Philosophy,2237
+1992,History,2989
+1992,Social sciences,10415
+1992,Natural sciences,3574
+1992,Engineering,3597
+1992,Business,1862
+1992,Arts,4746
+1992,Languages,1026
+1992,Literature,9332
+1992,Children's books,3031
+1992,Reference books,721
+1992,Total,45595
+1993,Generalities,2331
+1993,Philosophy,2312
+1993,History,3157
+1993,Social sciences,10614
+1993,Natural sciences,3799
+1993,Engineering,3749
+1993,Business,1809
+1993,Arts,5612
+1993,Languages,1141
+1993,Literature,9633
+1993,Children's books,3107
+1993,Reference books,789
+1993,Total,48053
+1994,Generalities,2673
+1994,Philosophy,2526
+1994,History,3410
+1994,Social sciences,11772
+1994,Natural sciences,4194
+1994,Engineering,4363
+1994,Business,2179
+1994,Arts,6705
+1994,Languages,1327
+1994,Literature,10490
+1994,Children's books,3333
+1994,Reference books,918
+1994,Total,53890
+1995,Generalities,2794
+1995,Philosophy,2731
+1995,History,3917
+1995,Social sciences,12578
+1995,Natural sciences,4460
+1995,Engineering,4774
+1995,Business,2160
+1995,Arts,7540
+1995,Languages,1391
+1995,Literature,11427
+1995,Children's books,3510
+1995,Reference books,1028
+1995,Total,58310
+1996,Generalities,2733
+1996,Philosophy,2794
+1996,History,3824
+1996,Social sciences,12607
+1996,Natural sciences,4533
+1996,Engineering,5479
+1996,Business,2422
+1996,Arts,8358
+1996,Languages,1405
+1996,Literature,11680
+1996,Children's books,3460
+1996,Reference books,1167
+1996,Total,60462
+1997,Generalities,2972
+1997,Philosophy,2821
+1997,History,4522
+1997,Social sciences,12803
+1997,Natural sciences,4783
+1997,Engineering,5481
+1997,Business,2532
+1997,Arts,8287
+1997,Languages,1516
+1997,Literature,11715
+1997,Children's books,3455
+1997,Reference books,1449
+1997,Total,62336
+1998,Generalities,2720
+1998,Philosophy,2840
+1998,History,4250
+1998,Social sciences,13586
+1998,Natural sciences,4721
+1998,Engineering,5610
+1998,Business,2639
+1998,Arts,8799
+1998,Languages,1618
+1998,Literature,11648
+1998,Children's books,3276
+1998,Reference books,1316
+1998,Total,63023
+1999,Generalities,2751
+1999,Philosophy,2816
+1999,History,4444
+1999,Social sciences,13413
+1999,Natural sciences,4935
+1999,Engineering,5727
+1999,Business,2732
+1999,Arts,8767
+1999,Languages,1625
+1999,Literature,11191
+1999,Children's books,3074
+1999,Reference books,1146
+1999,Total,62621
+2000,Generalities,2587
+2000,Philosophy,2997
+2000,History,4634
+2000,Social sciences,14099
+2000,Natural sciences,5218
+2000,Engineering,6105
+2000,Business,3000
+2000,Arts,8895
+2000,Languages,1766
+2000,Literature,11484
+2000,Children's books,3334
+2000,Reference books,946
+2000,Total,65065
+2001,Generalities,3046
+2001,Philosophy,2967
+2001,History,5148
+2001,Social sciences,14648
+2001,Natural sciences,5385
+2001,Engineering,7709
+2001,Business,3068
+2001,Arts,10199
+2001,Languages,1967
+2001,Literature,12119
+2001,Children's books,3940
+2001,Reference books,877
+2001,Total,71073
+2002,Generalities,3005
+2002,Philosophy,3138
+2002,History,5001
+2002,Social sciences,15238
+2002,Natural sciences,5758
+2002,Engineering,7868
+2002,Business,3181
+2002,Arts,10351
+2002,Languages,2030
+2002,Literature,12708
+2002,Children's books,4265
+2002,Reference books,1716
+2002,Total,74259
+2003,Generalities,2849
+2003,Philosophy,3280
+2003,History,5141
+2003,Social sciences,15744
+2003,Natural sciences,6012
+2003,Engineering,8254
+2003,Business,3357
+2003,Arts,10477
+2003,Languages,1933
+2003,Literature,12738
+2003,Children's books,4369
+2003,Reference books,1376
+2003,Total,75530
+2004,Generalities,2882
+2004,Philosophy,3735
+2004,History,5070
+2004,Social sciences,16002
+2004,Natural sciences,6273
+2004,Engineering,8064
+2004,Business,3332
+2004,Arts,10531
+2004,Languages,2023
+2004,Literature,13355
+2004,Children's books,4650
+2004,Reference books,1114
+2004,Total,77031

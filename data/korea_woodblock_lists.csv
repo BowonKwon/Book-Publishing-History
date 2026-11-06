@@ -1,0 +1,16 @@
+list,list_year,unit,category,count,source,note
+gosa_chwaryo_chaekpan,1568,woodblock sets (종),total,989,"한국민족문화대백과사전 「고사촬요」 E0003642",list printed in the 1568/1576/1585 editions; provincial counts below sum to 987
+gosa_chwaryo_chaekpan,1568,woodblock sets (종),경상도,387,same,
+gosa_chwaryo_chaekpan,1568,woodblock sets (종),전라도,337,same,
+gosa_chwaryo_chaekpan,1568,woodblock sets (종),황해도,77,same,
+gosa_chwaryo_chaekpan,1568,woodblock sets (종),평안도,67,same,
+gosa_chwaryo_chaekpan,1568,woodblock sets (종),강원도,61,same,
+gosa_chwaryo_chaekpan,1568,woodblock sets (종),충청도,37,same,
+gosa_chwaryo_chaekpan,1568,woodblock sets (종),함경도,19,same,
+gosa_chwaryo_chaekpan,1568,woodblock sets (종),경기도,2,same,
+nupango,1796,works with woodblocks (부),total,610,"한국민족문화대백과사전 「누판고」 E0013255",includes 66 royal compositions/compilations (어찬·어정서)
+nupango,1796,works with woodblocks (부),어찬·어정,66,same,
+nupango,1796,works with woodblocks (부),경부,47,same,
+nupango,1796,works with woodblocks (부),사부,74,same,
+nupango,1796,works with woodblocks (부),자부,119,same,
+nupango,1796,works with woodblocks (부),집부,304,same,

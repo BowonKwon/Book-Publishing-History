@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>0장. 「책 한 종」을 어떻게 세나 — 책 출간의 역사</title><meta name="description" content="필사본에서 전자책까지 — 한 해에 책이 몇 종 나왔는지, 세는 방법과 함께 본다">
+<script>(function(){var q=new URLSearchParams(location.search).get("theme");if(q==="light"||q==="dark"){localStorage.setItem("bph-theme",q)}else if(q==="auto"){localStorage.removeItem("bph-theme")}var v=localStorage.getItem("bph-theme");if(v)document.documentElement.setAttribute("data-theme",v)})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light;--bg:#f8f7f4;--bg2:#efede8;--card:#ffffff;--line:#dedbd3;--line2:#ebe8e1;--fg:#1d1f24;--fg2:#5a5e68;--fg3:#8a8e98;
+--accent:#1f6f9a;--accent2:#b5603a;--k1:#1679a6;--k2:#b5603a;--k3:#7a56a3;--k4:#6a8030;--grid:#e6e3dc;--gap:#efede8;
+--shadow:0 1px 2px rgba(30,32,40,.05),0 6px 18px rgba(30,32,40,.05);
+--display:"Noto Serif KR","Source Serif 4",Georgia,serif;--body:"Noto Sans KR",-apple-system,"Segoe UI","Apple SD Gothic Neo",Roboto,sans-serif}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#1b1c1f;--bg2:#222326;--card:#232428;--line:#34363c;--line2:#2b2d32;--fg:#ebe9e4;--fg2:#b3b1aa;--fg3:#80827f;--accent:#6fb0d8;--accent2:#d08a62;--k1:#3a8cc0;--k2:#c4704a;--k3:#9474bd;--k4:#82964a;--grid:#2e3035;--gap:#26272b;--shadow:0 1px 2px rgba(0,0,0,.3),0 8px 20px rgba(0,0,0,.25)}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#1b1c1f;--bg2:#222326;--card:#232428;--line:#34363c;--line2:#2b2d32;--fg:#ebe9e4;--fg2:#b3b1aa;--fg3:#80827f;--accent:#6fb0d8;--accent2:#d08a62;--k1:#3a8cc0;--k2:#c4704a;--k3:#9474bd;--k4:#82964a;--grid:#2e3035;--gap:#26272b;--shadow:0 1px 2px rgba(0,0,0,.3),0 8px 20px rgba(0,0,0,.25)}
+*{box-sizing:border-box}html,body{max-width:100%;overflow-x:hidden}
+body{margin:0;font:16px/1.7 var(--body);background:var(--bg);color:var(--fg);overflow-wrap:anywhere;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline;text-underline-offset:3px}:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:.55rem 1.1rem;display:flex;gap:1.2rem;align-items:center;flex-wrap:wrap}
+header .brand{font-family:var(--display);font-weight:600;font-size:1.05rem;color:var(--fg)}
+header nav{display:flex;gap:.9rem;flex-wrap:wrap}header nav a{color:var(--fg2);font-size:.92rem;border-bottom:2px solid transparent}header nav a:hover{text-decoration:none;color:var(--fg)}header nav a.on{color:var(--fg);border-bottom-color:var(--accent2)}
+header .right{margin-left:auto;display:flex;gap:.6rem;align-items:center}
+header .lang{font-size:.88rem;color:var(--fg2);border:1px solid var(--line);border-radius:999px;padding:.15rem .7rem}header .lang:hover{text-decoration:none;color:var(--fg)}
+.theme{border:1px solid var(--line);background:transparent;color:var(--fg2);border-radius:999px;width:30px;height:30px;cursor:pointer;font-size:.9rem;line-height:1;padding:0}
+main{max-width:980px;margin:0 auto;padding:1.6rem 1.1rem 4rem;min-width:0}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(1.6rem,3.2vw,2.2rem);line-height:1.25;margin:.3rem 0 .6rem;text-wrap:balance}
+h2{font-family:var(--display);font-weight:600;font-size:1.25rem;line-height:1.3;margin:2.2rem 0 .7rem;padding-bottom:.35rem;border-bottom:1px solid var(--line);text-wrap:balance}
+.eyebrow{color:var(--fg3);font-size:.84rem;letter-spacing:.03em}
+.hero{padding:.6rem 0 1.2rem;border-bottom:1px solid var(--line);margin-bottom:1.2rem}.hero h1{font-size:clamp(1.9rem,4vw,2.6rem)}.lead{color:var(--fg2);font-size:1.08rem;max-width:68ch}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:.8rem;margin:.9rem 0 1.4rem}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.85rem 1rem .9rem;box-shadow:var(--shadow);color:var(--fg)}a.card:hover{text-decoration:none;border-color:var(--fg3)}
+.card b{display:block;margin-bottom:.15rem;color:var(--accent)}.card .yr{font-size:.8rem;color:var(--fg3)}.card small{display:block;color:var(--fg2);font-size:.88rem;line-height:1.5;margin-top:.3rem}
+:lang(ko) p,:lang(ko) li,:lang(ko) .lead,:lang(ko) blockquote,:lang(ko) figcaption,:lang(ko) .card small{word-break:keep-all;overflow-wrap:anywhere}
+.prose p,.prose ul,.prose blockquote{max-width:72ch}.prose p{margin:.8rem 0}.prose ul{padding-left:1.2rem}.prose li{margin:.3rem 0}
+blockquote{border-left:4px solid var(--accent);background:var(--bg2);border-radius:0 10px 10px 0;padding:.75rem 1.1rem;margin:.8rem 0 1.4rem}blockquote p{margin:0}
+table{border-collapse:collapse;width:100%;font-size:.9rem;margin:.6rem 0}th,td{border-bottom:1px solid var(--line2);padding:.42rem .6rem;text-align:left;vertical-align:top}
+thead th{color:var(--fg2);font-weight:600;font-size:.84rem;border-bottom:1px solid var(--line)}tbody tr:nth-child(even){background:color-mix(in srgb,var(--bg2) 55%,transparent)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card);padding:0 .3rem;margin:.6rem 0 1rem}.wrap table{margin:0}.wrap th,.wrap td{overflow-wrap:normal;word-break:normal}:lang(ko) .wrap td{word-break:keep-all}
+figure{margin:1.2rem 0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1rem 1rem .8rem;box-shadow:var(--shadow)}
+figure h3{margin:0 0 .3rem;font-size:1rem}figcaption{font-size:.86rem;color:var(--fg2);margin-top:.5rem;line-height:1.5}
+.chart{overflow-x:auto}svg{max-width:100%;height:auto;display:block}svg text{font-family:var(--body);fill:var(--fg2);font-size:13px}svg .grid{stroke:var(--grid)}svg .ax{stroke:var(--line)}
+svg .hit:hover{stroke:var(--fg);stroke-width:1.5}svg .cell:hover{stroke:var(--fg);stroke-width:1.5}
+.legend{display:flex;gap:1rem;font-size:.85rem;color:var(--fg2);flex-wrap:wrap;margin:.2rem 0 .5rem}.legend span::before{content:"";display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:.35rem;vertical-align:-1px;background:var(--c)}
+.legend span.d::before{background:repeating-linear-gradient(90deg,var(--c) 0 4px,transparent 4px 7px);height:3px;vertical-align:3px}
+.legend span.h::before{background:repeating-linear-gradient(45deg,var(--fg3) 0 1.5px,transparent 1.5px 4px);border:1px solid var(--fg3)}
+details{margin-top:.6rem}summary{cursor:pointer;color:var(--fg2);font-size:.88rem}
+.pn{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;border-top:1px solid var(--line);margin-top:2.4rem;padding-top:1rem;font-size:.92rem}.pn a[rel=next]{margin-left:auto;text-align:right}.pn small{display:block;color:var(--fg3)}
+.files a{display:inline-block;font-size:.85rem;background:var(--bg2);border:1px solid var(--line2);border-radius:6px;padding:.15rem .55rem;margin:.2rem .3rem .2rem 0;color:var(--fg2)}
+footer{border-top:1px solid var(--line);color:var(--fg3);font-size:.82rem;padding:1.2rem;text-align:center}
+@media(max-width:640px){.chart svg{min-width:640px}.chart svg text{font-size:13px}header{gap:.6rem}}
+</style></head><body>
+<header><a class="brand" href="../ko/index.html">책 출간의 역사</a><nav><a href="../ko/index.html">처음</a><a href="../ko/ch0.html" class="on">장</a><a href="../ko/data.html">데이터</a><a href="../ko/method.html">방법</a></nav>
+<div class="right"><button id="theme" class="theme" type="button" aria-label="테마">◑</button><a class="lang" href="../en/ch0.html">English</a></div></header>
+<main><h1>0장. 「책 한 종」을 어떻게 세나</h1><div class="prose"><blockquote>
+<p><strong>핵심.</strong> 같은 나라 같은 해의 책 수가 출처마다 다를 때, 이 사이트가 확인한 사례에서는 세는 단위나 범위가 다른 경우가 많았다. 이 사이트의 그림은 출처마다 선을 따로 긋고, 출처가 스스로 정의를 바꾼 해에 세로선을 둔다.</p>
+</blockquote>
+<h2>무엇을 하나로 세는가</h2>
+<p>책 수를 말하는 통계는 적어도 네 가지 단위 가운데 하나를 쓴다. 한 작품을 새로 찍어 낸 <strong>판(edition)</strong>, 서지 목록에 오른 <strong>레코드</strong>, 통계 기관이 정한 <strong>종(title)</strong>, 그리고 찍어 낸 <strong>부수(copies)</strong>다. 근세 유럽의 종합목록은 지금 남아 있는 책을 판 단위로 적고, 국가 통계는 그해 새로 나온 종을 센다. 두 숫자는 이어 붙일 수 없다.</p>
+<p>도서 생산 통계의 국제 표준화 권고는 1964년 11월 19일 UNESCO 총회에서 채택되었다. 권고는 책을 「표지를 빼고 49쪽 이상인 비정기 인쇄 간행물」로, 5~48쪽은 소책자로 나누었다(6항). 통계는 종수와, 가능하면 부수를 내도록 했다(7항). 재쇄는 내용과 조판이 바뀌지 않은 것(오식 정정은 예외)이고, 원래 출판사가 아닌 곳이 낸 재쇄는 신판으로 본다(6항). 재쇄는 종수에 넣지 않고 부수로만 센다(8항). 본문이 부차적이고 무료로 배포되는 광고물, 한때 쓰고 버리는 성격의 시간표·가격표·달력 같은 간행물, 음악이 가사보다 중요한 악보와 지도(지도첩 제외)는 셈에서 뺐다(2항).</p>
+<h2>같은 해, 다른 숫자</h2>
+<p>나라마다 이 기준을 받아들인 시점과 방식이 다르고, 같은 나라 안에서도 집계 주체가 바뀌었다. 이 사이트가 확인한 단절은 다음과 같다.</p>
+<div class="wrap"><table>
+<thead>
+<tr>
+<th>계열</th>
+<th>해</th>
+<th>바뀐 것</th>
+<th>출처</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>미국 신간·신판</td>
+<td>1920</td>
+<td>소책자를 총계에만 넣음(1928년까지)</td>
+<td>HSUS 1975, 808쪽 주 1</td>
+</tr>
+<tr>
+<td>미국 신간·신판</td>
+<td>1929</td>
+<td>소책자를 완전히 뺌</td>
+<td>같은 주</td>
+</tr>
+<tr>
+<td>미국 신간·신판</td>
+<td>1959</td>
+<td>UNESCO의 「책」 정의 채택</td>
+<td>같은 쪽 주 3</td>
+</tr>
+<tr>
+<td>미국 신간·신판</td>
+<td>1967</td>
+<td>권이 아니라 종으로 셈</td>
+<td>803쪽, 808쪽 주 2</td>
+</tr>
+<tr>
+<td>독일어권 판(VD)</td>
+<td>1601·1701</td>
+<td>세기마다 편목 규칙이 다름. VD16·VD17은 한 판의 알려진 사본을 모두 살펴 이본을 반영하고, VD18은 판마다 한 부만 기록</td>
+<td>VD 데이터 설명서</td>
+</tr>
+<tr>
+<td>한국 출협</td>
+<td>1991</td>
+<td>초판과 개정판만 집계</td>
+<td>출협 「2025년 기준 한국 출판 생산 통계」 3쪽</td>
+</tr>
+<tr>
+<td>한국 출협</td>
+<td>2005</td>
+<td>만화 포함</td>
+<td>같은 각주</td>
+</tr>
+<tr>
+<td>일본</td>
+<td>2016</td>
+<td>출판연감(목록 기반) 78,113종, 출판지표연보(도매 출하 신간) 75,039종</td>
+<td>일본통계연감 표 26-8, 제68회·제69회판</td>
+</tr>
+</tbody>
+</table></div>
+<figure id="F0-breaks"><h3>출처가 스스로 밝힌 정의 변경</h3><div class="chart"><svg viewBox="0 0 900 244" role="img"><line class="grid" x1="186.2" y1="10" x2="186.2" y2="214"/><text x="186.2" y="236" text-anchor="middle">1600</text><line class="grid" x1="267.4" y1="10" x2="267.4" y2="214"/><text x="267.4" y="236" text-anchor="middle">1650</text><line class="grid" x1="348.5" y1="10" x2="348.5" y2="214"/><text x="348.5" y="236" text-anchor="middle">1700</text><line class="grid" x1="429.6" y1="10" x2="429.6" y2="214"/><text x="429.6" y="236" text-anchor="middle">1750</text><line class="grid" x1="510.8" y1="10" x2="510.8" y2="214"/><text x="510.8" y="236" text-anchor="middle">1800</text><line class="grid" x1="591.9" y1="10" x2="591.9" y2="214"/><text x="591.9" y="236" text-anchor="middle">1850</text><line class="grid" x1="673.0" y1="10" x2="673.0" y2="214"/><text x="673.0" y="236" text-anchor="middle">1900</text><line class="grid" x1="754.2" y1="10" x2="754.2" y2="214"/><text x="754.2" y="236" text-anchor="middle">1950</text><line class="grid" x1="835.3" y1="10" x2="835.3" y2="214"/><text x="835.3" y="236" text-anchor="middle">2000</text><text x="162" y="31.0" text-anchor="end" style="fill:var(--fg)">UNESCO 권고</text><line class="ax" x1="170" y1="27.0" x2="884" y2="27.0"/><circle class="hit" cx="776.9" cy="27.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1964 · UNESCO 권고: 표지 빼고 49쪽 이상을 책으로 세고 재쇄는 종수에 넣지 않음</title></circle><text x="776.9" y="17.0" text-anchor="middle" style="font-size:11px">1964</text><text x="162" y="65.0" text-anchor="end" style="fill:var(--fg)">미국 HSUS</text><line class="ax" x1="170" y1="61.0" x2="884" y2="61.0"/><circle class="hit" cx="705.5" cy="61.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1920 · 1920~1928: 소책자는 총계에만 포함</title></circle><text x="705.5" y="51.0" text-anchor="middle" style="font-size:11px">1920</text><circle class="hit" cx="720.1" cy="61.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1929 · 1929년부터 소책자 완전 제외</title></circle><text x="720.1" y="51.0" text-anchor="middle" style="font-size:11px">1929</text><circle class="hit" cx="768.8" cy="61.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1959 · 1959: UNESCO의 「책」 정의 채택</title></circle><text x="768.8" y="51.0" text-anchor="middle" style="font-size:11px">1959</text><circle class="hit" cx="781.8" cy="61.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1967 · 1967: 권이 아니라 종으로 셈</title></circle><text x="781.8" y="51.0" text-anchor="middle" style="font-size:11px">1967</text><text x="162" y="99.0" text-anchor="end" style="fill:var(--fg)">독일어권 VD</text><line class="ax" x1="170" y1="95.0" x2="884" y2="95.0"/><circle class="hit" cx="187.8" cy="95.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1601 · VD16→VD17: 편목 규칙이 바뀜(VD16·17은 알려진 사본을 모두 살펴 이본을 반영)</title></circle><text x="187.8" y="85.0" text-anchor="middle" style="font-size:11px">1601</text><circle class="hit" cx="350.1" cy="95.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1701 · VD17→VD18: 판마다 한 부만 기록</title></circle><text x="350.1" y="85.0" text-anchor="middle" style="font-size:11px">1701</text><text x="162" y="133.0" text-anchor="end" style="fill:var(--fg)">한국 출협</text><line class="ax" x1="170" y1="129.0" x2="884" y2="129.0"/><circle class="hit" cx="820.7" cy="129.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1991 · 1991: 초판과 개정판만 집계</title></circle><text x="820.7" y="119.0" text-anchor="middle" style="font-size:11px">1991</text><circle class="hit" cx="843.4" cy="129.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>2005 · 2005: 만화 포함</title></circle><text x="843.4" y="119.0" text-anchor="middle" style="font-size:11px">2005</text><text x="162" y="167.0" text-anchor="end" style="fill:var(--fg)">한국 출협 부수</text><line class="ax" x1="170" y1="163.0" x2="884" y2="163.0"/><circle class="hit" cx="874.3" cy="163.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>2024 · 2024: 평균 발행 부수 집계 기준 변경</title></circle><text x="874.3" y="153.0" text-anchor="middle" style="font-size:11px">2024</text><text x="162" y="201.0" text-anchor="end" style="fill:var(--fg)">일본</text><line class="ax" x1="170" y1="197.0" x2="884" y2="197.0"/><circle class="hit" cx="861.3" cy="197.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>2016 · 출판연감(목록 기반)과 출판지표연보(도매 출하 신간)가 겹치는 해: 78113 대 75039</title></circle><text x="861.3" y="187.0" text-anchor="middle" style="font-size:11px">2016</text></svg></div><figcaption>점 위에 커서를 두면 무엇이 바뀌었는지 보인다. 출처 문장의 위치는 표에 있다.</figcaption><details><summary>표로 보기</summary><div class="wrap"><div class="wrap"><table><thead><tr><th>계열</th><th>해</th><th>바뀐 것</th><th>출처</th></tr></thead><tbody><tr><td>UNESCO 권고</td><td class="num">1964</td><td>UNESCO 권고: 표지 빼고 49쪽 이상을 책으로 세고 재쇄는 종수에 넣지 않음</td><td>UNESCO, Recommendation concerning the International Standardization of Statistics Relating to Book Production and Periodicals, 19 Nov 1964</td></tr><tr><td>독일어권 VD</td><td class="num">1601</td><td>VD16→VD17: 편목 규칙이 바뀜(VD16·17은 알려진 사본을 모두 살펴 이본을 반영)</td><td>VD dataset datasheet (Zenodo 15167939), Composition</td></tr><tr><td>독일어권 VD</td><td class="num">1701</td><td>VD17→VD18: 판마다 한 부만 기록</td><td>VD dataset datasheet (Zenodo 15167939), Composition</td></tr><tr><td>미국 HSUS</td><td class="num">1920</td><td>1920~1928: 소책자는 총계에만 포함</td><td>HSUS 1975, p. 808, note 1</td></tr><tr><td>미국 HSUS</td><td class="num">1929</td><td>1929년부터 소책자 완전 제외</td><td>HSUS 1975, p. 808, note 1</td></tr><tr><td>미국 HSUS</td><td class="num">1959</td><td>1959: UNESCO의 「책」 정의 채택</td><td>HSUS 1975, p. 808, note 3; p. 803 text</td></tr><tr><td>미국 HSUS</td><td class="num">1967</td><td>1967: 권이 아니라 종으로 셈</td><td>HSUS 1975, p. 803; p. 808 note 2</td></tr><tr><td>한국 출협</td><td class="num">1991</td><td>1991: 초판과 개정판만 집계</td><td>KPA 2025 publishing statistics, p. 3 footnote</td></tr><tr><td>한국 출협</td><td class="num">2005</td><td>2005: 만화 포함</td><td>KPA 2025 publishing statistics, p. 3 footnote</td></tr><tr><td>한국 출협 부수</td><td class="num">2024</td><td>2024: 평균 발행 부수 집계 기준 변경</td><td>KPA 2025 publishing statistics, p. 1 note</td></tr><tr><td>일본</td><td class="num">2016</td><td>출판연감(목록 기반)과 출판지표연보(도매 출하 신간)가 겹치는 해: 78113 대 75039</td><td>Japan Statistical Yearbook table 26-8, editions 68 and 69-72</td></tr></tbody></table></div></div></details></figure>
+<p>한국의 1991년이 크기를 보여 준다. 출협 통계는 1990년 41,712종에서 1991년 22,769종으로 줄어든다. 각주는 그해부터 초판과 개정판만 셌다고 적었다. 이 줄어듦을 출판량의 변화로 읽으려면 셈법이 바뀐 몫을 먼저 떼어 내야 하는데, 표만으로는 그 몫을 나눌 수 없다. 2005년에 43,598종으로 늘어난 것(2004년 27,527종)도 만화를 넣기 시작한 해와 겹친다.</p>
+<h2>ISBN 등록 수는 종수가 아니다</h2>
+<p>오늘날 가장 쉽게 구할 수 있는 숫자는 ISBN 등록 건수다. 한 작품이 종이책·전자책·양장본으로 나오면 ISBN을 따로 받는다. WIPO 보고서는 이 때문에 「중복 계산이 불가피하다」고 적었다. 2022년 일본의 ISBN 등록은 902,311건으로 한 해 전 184,985건보다 717,326건 많다. 같은 해 출판지표연보의 신간은 66,885종이다. 6장에서 이 차이를 다시 본다.</p>
+<h2>이 사이트의 원칙</h2>
+<ul>
+<li>출처가 다르면 선을 따로 긋는다. 서로 다른 출처를 하나의 「추정 줄」로 잇지 않는다.</li>
+<li>출처가 스스로 밝힌 정의 변경만 세로선으로 표시한다. 우리가 짐작한 단절은 본문에만 적는다.</li>
+<li>남은 책을 센 숫자(근세 종합목록, 고서 소장 레코드)와 그해 나온 책을 센 숫자(국가 통계)를 같은 축에 겹치지 않는다.</li>
+<li>인과를 말하지 않는다. 「~ 전후로 ~가 관측된다」까지만 쓴다.</li>
+</ul></div><nav class="pn"><a rel="next" href="ch1.html"><small>다음 장</small>1장. 필사본에서 인쇄로 (500~1500)</a></nav></main>
+<footer>책 출간의 역사 · 판 1.0.0 · 생성 2026-11-07 · <a href="https://github.com/BowonKwon/Book-Publishing-History">GitHub</a> · 다른 사이트 <a href="https://bowonkwon.github.io/">bowonkwon.github.io</a></footer>
+<script>(function(){var k="bph-theme",r=document.documentElement,b=document.getElementById("theme");function ap(v){if(v)r.setAttribute("data-theme",v);else r.removeAttribute("data-theme");if(b)b.textContent=v==="dark"?"\u263E":v==="light"?"\u2600":"\u25D1"}var cur=localStorage.getItem(k)||"";ap(cur);if(b)b.addEventListener("click",function(){cur=cur===""?"light":cur==="light"?"dark":"";if(cur)localStorage.setItem(k,cur);else localStorage.removeItem(k);ap(cur)})})();</script></body></html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chapter 0. How do you count &quot;one book&quot;? — A History of Book Publishing</title><meta name="description" content="From manuscripts to e-books: how many books appeared each year, and how they were counted">
+<script>(function(){var q=new URLSearchParams(location.search).get("theme");if(q==="light"||q==="dark"){localStorage.setItem("bph-theme",q)}else if(q==="auto"){localStorage.removeItem("bph-theme")}var v=localStorage.getItem("bph-theme");if(v)document.documentElement.setAttribute("data-theme",v)})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light;--bg:#f8f7f4;--bg2:#efede8;--card:#ffffff;--line:#dedbd3;--line2:#ebe8e1;--fg:#1d1f24;--fg2:#5a5e68;--fg3:#8a8e98;
+--accent:#1f6f9a;--accent2:#b5603a;--k1:#1679a6;--k2:#b5603a;--k3:#7a56a3;--k4:#6a8030;--grid:#e6e3dc;--gap:#efede8;
+--shadow:0 1px 2px rgba(30,32,40,.05),0 6px 18px rgba(30,32,40,.05);
+--display:"Noto Serif KR","Source Serif 4",Georgia,serif;--body:"Noto Sans KR",-apple-system,"Segoe UI","Apple SD Gothic Neo",Roboto,sans-serif}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#1b1c1f;--bg2:#222326;--card:#232428;--line:#34363c;--line2:#2b2d32;--fg:#ebe9e4;--fg2:#b3b1aa;--fg3:#80827f;--accent:#6fb0d8;--accent2:#d08a62;--k1:#3a8cc0;--k2:#c4704a;--k3:#9474bd;--k4:#82964a;--grid:#2e3035;--gap:#26272b;--shadow:0 1px 2px rgba(0,0,0,.3),0 8px 20px rgba(0,0,0,.25)}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#1b1c1f;--bg2:#222326;--card:#232428;--line:#34363c;--line2:#2b2d32;--fg:#ebe9e4;--fg2:#b3b1aa;--fg3:#80827f;--accent:#6fb0d8;--accent2:#d08a62;--k1:#3a8cc0;--k2:#c4704a;--k3:#9474bd;--k4:#82964a;--grid:#2e3035;--gap:#26272b;--shadow:0 1px 2px rgba(0,0,0,.3),0 8px 20px rgba(0,0,0,.25)}
+*{box-sizing:border-box}html,body{max-width:100%;overflow-x:hidden}
+body{margin:0;font:16px/1.7 var(--body);background:var(--bg);color:var(--fg);overflow-wrap:anywhere;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline;text-underline-offset:3px}:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:.55rem 1.1rem;display:flex;gap:1.2rem;align-items:center;flex-wrap:wrap}
+header .brand{font-family:var(--display);font-weight:600;font-size:1.05rem;color:var(--fg)}
+header nav{display:flex;gap:.9rem;flex-wrap:wrap}header nav a{color:var(--fg2);font-size:.92rem;border-bottom:2px solid transparent}header nav a:hover{text-decoration:none;color:var(--fg)}header nav a.on{color:var(--fg);border-bottom-color:var(--accent2)}
+header .right{margin-left:auto;display:flex;gap:.6rem;align-items:center}
+header .lang{font-size:.88rem;color:var(--fg2);border:1px solid var(--line);border-radius:999px;padding:.15rem .7rem}header .lang:hover{text-decoration:none;color:var(--fg)}
+.theme{border:1px solid var(--line);background:transparent;color:var(--fg2);border-radius:999px;width:30px;height:30px;cursor:pointer;font-size:.9rem;line-height:1;padding:0}
+main{max-width:980px;margin:0 auto;padding:1.6rem 1.1rem 4rem;min-width:0}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(1.6rem,3.2vw,2.2rem);line-height:1.25;margin:.3rem 0 .6rem;text-wrap:balance}
+h2{font-family:var(--display);font-weight:600;font-size:1.25rem;line-height:1.3;margin:2.2rem 0 .7rem;padding-bottom:.35rem;border-bottom:1px solid var(--line);text-wrap:balance}
+.eyebrow{color:var(--fg3);font-size:.84rem;letter-spacing:.03em}
+.hero{padding:.6rem 0 1.2rem;border-bottom:1px solid var(--line);margin-bottom:1.2rem}.hero h1{font-size:clamp(1.9rem,4vw,2.6rem)}.lead{color:var(--fg2);font-size:1.08rem;max-width:68ch}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:.8rem;margin:.9rem 0 1.4rem}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.85rem 1rem .9rem;box-shadow:var(--shadow);color:var(--fg)}a.card:hover{text-decoration:none;border-color:var(--fg3)}
+.card b{display:block;margin-bottom:.15rem;color:var(--accent)}.card .yr{font-size:.8rem;color:var(--fg3)}.card small{display:block;color:var(--fg2);font-size:.88rem;line-height:1.5;margin-top:.3rem}
+:lang(ko) p,:lang(ko) li,:lang(ko) .lead,:lang(ko) blockquote,:lang(ko) figcaption,:lang(ko) .card small{word-break:keep-all;overflow-wrap:anywhere}
+.prose p,.prose ul,.prose blockquote{max-width:72ch}.prose p{margin:.8rem 0}.prose ul{padding-left:1.2rem}.prose li{margin:.3rem 0}
+blockquote{border-left:4px solid var(--accent);background:var(--bg2);border-radius:0 10px 10px 0;padding:.75rem 1.1rem;margin:.8rem 0 1.4rem}blockquote p{margin:0}
+table{border-collapse:collapse;width:100%;font-size:.9rem;margin:.6rem 0}th,td{border-bottom:1px solid var(--line2);padding:.42rem .6rem;text-align:left;vertical-align:top}
+thead th{color:var(--fg2);font-weight:600;font-size:.84rem;border-bottom:1px solid var(--line)}tbody tr:nth-child(even){background:color-mix(in srgb,var(--bg2) 55%,transparent)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card);padding:0 .3rem;margin:.6rem 0 1rem}.wrap table{margin:0}.wrap th,.wrap td{overflow-wrap:normal;word-break:normal}:lang(ko) .wrap td{word-break:keep-all}
+figure{margin:1.2rem 0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1rem 1rem .8rem;box-shadow:var(--shadow)}
+figure h3{margin:0 0 .3rem;font-size:1rem}figcaption{font-size:.86rem;color:var(--fg2);margin-top:.5rem;line-height:1.5}
+.chart{overflow-x:auto}svg{max-width:100%;height:auto;display:block}svg text{font-family:var(--body);fill:var(--fg2);font-size:13px}svg .grid{stroke:var(--grid)}svg .ax{stroke:var(--line)}
+svg .hit:hover{stroke:var(--fg);stroke-width:1.5}svg .cell:hover{stroke:var(--fg);stroke-width:1.5}
+.legend{display:flex;gap:1rem;font-size:.85rem;color:var(--fg2);flex-wrap:wrap;margin:.2rem 0 .5rem}.legend span::before{content:"";display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:.35rem;vertical-align:-1px;background:var(--c)}
+.legend span.d::before{background:repeating-linear-gradient(90deg,var(--c) 0 4px,transparent 4px 7px);height:3px;vertical-align:3px}
+.legend span.h::before{background:repeating-linear-gradient(45deg,var(--fg3) 0 1.5px,transparent 1.5px 4px);border:1px solid var(--fg3)}
+details{margin-top:.6rem}summary{cursor:pointer;color:var(--fg2);font-size:.88rem}
+.pn{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;border-top:1px solid var(--line);margin-top:2.4rem;padding-top:1rem;font-size:.92rem}.pn a[rel=next]{margin-left:auto;text-align:right}.pn small{display:block;color:var(--fg3)}
+.files a{display:inline-block;font-size:.85rem;background:var(--bg2);border:1px solid var(--line2);border-radius:6px;padding:.15rem .55rem;margin:.2rem .3rem .2rem 0;color:var(--fg2)}
+footer{border-top:1px solid var(--line);color:var(--fg3);font-size:.82rem;padding:1.2rem;text-align:center}
+@media(max-width:640px){.chart svg{min-width:640px}.chart svg text{font-size:13px}header{gap:.6rem}}
+</style></head><body>
+<header><a class="brand" href="../en/index.html">A History of Book Publishing</a><nav><a href="../en/index.html">Home</a><a href="../en/ch0.html" class="on">Chapters</a><a href="../en/data.html">Data</a><a href="../en/method.html">Method</a></nav>
+<div class="right"><button id="theme" class="theme" type="button" aria-label="Theme">◑</button><a class="lang" href="../ko/ch0.html">한국어</a></div></header>
+<main><h1>Chapter 0. How do you count &quot;one book&quot;?</h1><div class="prose"><blockquote>
+<p><strong>Key point.</strong> When two sources give different book counts for the same country and year, the cases checked for this site mostly turned out to count different units or different scopes. Every chart on this site draws one line per source and marks the years in which a source says it changed its definition.</p>
+</blockquote>
+<h2>What counts as one</h2>
+<p>Statistics on books use at least four units: the <strong>edition</strong> (a new setting or printing of a work), the <strong>record</strong> in a bibliographic catalog, the <strong>title</strong> as defined by a statistical agency, and the <strong>copies</strong> printed. Union catalogs of early modern Europe list surviving books edition by edition; national statistics count the titles that appeared in a given year. The two cannot be joined into one line.</p>
+<p>The UNESCO General Conference adopted a recommendation on the international standardization of book production statistics on November 19, 1964. It defined a book as "a non-periodical printed publication of at least 49 pages, exclusive of the cover pages," and a pamphlet as one of 5 to 48 pages (para. 6). Statistics were to report the number of titles and, if possible, copies (para. 7). A reprint is "unchanged in contents and layout, apart from correction of typographical errors," and a reprint by a publisher other than the original one counts as a re-edition (para. 6); reprints are counted in copies only, not as titles (para. 8). Excluded were advertising publications whose text is subsidiary and which are distributed free, publications of a transitory character such as timetables, price lists and calendars, music scores in which the music matters more than the words, and maps other than atlases (para. 2).</p>
+<h2>Same year, different numbers</h2>
+<p>Countries adopted the standard at different times and in different ways, and within one country the body doing the counting changed. These are the breaks found for this site.</p>
+<div class="wrap"><table>
+<thead>
+<tr>
+<th>Series</th>
+<th>Year</th>
+<th>What changed</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US new books and editions</td>
+<td>1920</td>
+<td>Pamphlets counted in the total only (through 1928)</td>
+<td>HSUS 1975, p. 808, note 1</td>
+</tr>
+<tr>
+<td>US new books and editions</td>
+<td>1929</td>
+<td>Pamphlets excluded entirely</td>
+<td>same note</td>
+</tr>
+<tr>
+<td>US new books and editions</td>
+<td>1959</td>
+<td>UNESCO definition of a book adopted</td>
+<td>same page, note 3</td>
+</tr>
+<tr>
+<td>US new books and editions</td>
+<td>1967</td>
+<td>Counted by title, not by volume</td>
+<td>p. 803; p. 808, note 2</td>
+</tr>
+<tr>
+<td>German-speaking lands (VD)</td>
+<td>1601, 1701</td>
+<td>Cataloging rules differ by century: VD16 and VD17 examine all known copies of an edition, taking print variants into account; VD18 records one copy per edition</td>
+<td>VD dataset datasheet</td>
+</tr>
+<tr>
+<td>Korea, KPA</td>
+<td>1991</td>
+<td>Only first and revised editions counted</td>
+<td>KPA, 2025 publishing statistics, p. 3</td>
+</tr>
+<tr>
+<td>Korea, KPA</td>
+<td>2005</td>
+<td>Comics included</td>
+<td>same footnote</td>
+</tr>
+<tr>
+<td>Japan</td>
+<td>2016</td>
+<td>Shuppan Nenkan (catalog-based) 78,113; Shuppan Shihyo Nenpo (new titles shipped through distributors) 75,039</td>
+<td>Japan Statistical Yearbook table 26-8, eds. 68 and 69</td>
+</tr>
+</tbody>
+</table></div>
+<figure id="F0-breaks"><h3>Definition changes stated by the sources</h3><div class="chart"><svg viewBox="0 0 900 244" role="img"><line class="grid" x1="186.2" y1="10" x2="186.2" y2="214"/><text x="186.2" y="236" text-anchor="middle">1600</text><line class="grid" x1="267.4" y1="10" x2="267.4" y2="214"/><text x="267.4" y="236" text-anchor="middle">1650</text><line class="grid" x1="348.5" y1="10" x2="348.5" y2="214"/><text x="348.5" y="236" text-anchor="middle">1700</text><line class="grid" x1="429.6" y1="10" x2="429.6" y2="214"/><text x="429.6" y="236" text-anchor="middle">1750</text><line class="grid" x1="510.8" y1="10" x2="510.8" y2="214"/><text x="510.8" y="236" text-anchor="middle">1800</text><line class="grid" x1="591.9" y1="10" x2="591.9" y2="214"/><text x="591.9" y="236" text-anchor="middle">1850</text><line class="grid" x1="673.0" y1="10" x2="673.0" y2="214"/><text x="673.0" y="236" text-anchor="middle">1900</text><line class="grid" x1="754.2" y1="10" x2="754.2" y2="214"/><text x="754.2" y="236" text-anchor="middle">1950</text><line class="grid" x1="835.3" y1="10" x2="835.3" y2="214"/><text x="835.3" y="236" text-anchor="middle">2000</text><text x="162" y="31.0" text-anchor="end" style="fill:var(--fg)">UNESCO</text><line class="ax" x1="170" y1="27.0" x2="884" y2="27.0"/><circle class="hit" cx="776.9" cy="27.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1964 · UNESCO recommendation: a book has 49+ pages excluding covers; reprints are not counted as titles</title></circle><text x="776.9" y="17.0" text-anchor="middle" style="font-size:11px">1964</text><text x="162" y="65.0" text-anchor="end" style="fill:var(--fg)">US (HSUS)</text><line class="ax" x1="170" y1="61.0" x2="884" y2="61.0"/><circle class="hit" cx="705.5" cy="61.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1920 · 1920-1928: pamphlets in the total only</title></circle><text x="705.5" y="51.0" text-anchor="middle" style="font-size:11px">1920</text><circle class="hit" cx="720.1" cy="61.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1929 · From 1929 pamphlets excluded entirely</title></circle><text x="720.1" y="51.0" text-anchor="middle" style="font-size:11px">1929</text><circle class="hit" cx="768.8" cy="61.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1959 · 1959: UNESCO definition of a book adopted</title></circle><text x="768.8" y="51.0" text-anchor="middle" style="font-size:11px">1959</text><circle class="hit" cx="781.8" cy="61.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1967 · 1967: counted by title rather than by volume</title></circle><text x="781.8" y="51.0" text-anchor="middle" style="font-size:11px">1967</text><text x="162" y="99.0" text-anchor="end" style="fill:var(--fg)">German VD</text><line class="ax" x1="170" y1="95.0" x2="884" y2="95.0"/><circle class="hit" cx="187.8" cy="95.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1601 · VD16 to VD17: cataloging rules change (VD16/17 examine all known copies, taking print variants into account)</title></circle><text x="187.8" y="85.0" text-anchor="middle" style="font-size:11px">1601</text><circle class="hit" cx="350.1" cy="95.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1701 · VD17 to VD18: one copy per edition recorded</title></circle><text x="350.1" y="85.0" text-anchor="middle" style="font-size:11px">1701</text><text x="162" y="133.0" text-anchor="end" style="fill:var(--fg)">Korea (KPA)</text><line class="ax" x1="170" y1="129.0" x2="884" y2="129.0"/><circle class="hit" cx="820.7" cy="129.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>1991 · 1991: first and revised editions only</title></circle><text x="820.7" y="119.0" text-anchor="middle" style="font-size:11px">1991</text><circle class="hit" cx="843.4" cy="129.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>2005 · 2005: comics included</title></circle><text x="843.4" y="119.0" text-anchor="middle" style="font-size:11px">2005</text><text x="162" y="167.0" text-anchor="end" style="fill:var(--fg)">Korea (KPA) copies</text><line class="ax" x1="170" y1="163.0" x2="884" y2="163.0"/><circle class="hit" cx="874.3" cy="163.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>2024 · 2024: method for average print run changed</title></circle><text x="874.3" y="153.0" text-anchor="middle" style="font-size:11px">2024</text><text x="162" y="201.0" text-anchor="end" style="fill:var(--fg)">Japan</text><line class="ax" x1="170" y1="197.0" x2="884" y2="197.0"/><circle class="hit" cx="861.3" cy="197.0" r="6" fill="var(--k2)" stroke="var(--card)" stroke-width="2"><title>2016 · Overlap year of Shuppan Nenkan (catalog-based) and Shuppan Shihyo Nenpo (new titles shipped through distributors): 78,113 vs 75,039</title></circle><text x="861.3" y="187.0" text-anchor="middle" style="font-size:11px">2016</text></svg></div><figcaption>Hover over a dot to see what changed. The table gives where each source says so.</figcaption><details><summary>Show as table</summary><div class="wrap"><div class="wrap"><table><thead><tr><th>Series</th><th>Year</th><th>Change</th><th>Source</th></tr></thead><tbody><tr><td>UNESCO</td><td class="num">1964</td><td>UNESCO recommendation: a book has 49+ pages excluding covers; reprints are not counted as titles</td><td>UNESCO, Recommendation concerning the International Standardization of Statistics Relating to Book Production and Periodicals, 19 Nov 1964</td></tr><tr><td>German VD</td><td class="num">1601</td><td>VD16 to VD17: cataloging rules change (VD16/17 examine all known copies, taking print variants into account)</td><td>VD dataset datasheet (Zenodo 15167939), Composition</td></tr><tr><td>German VD</td><td class="num">1701</td><td>VD17 to VD18: one copy per edition recorded</td><td>VD dataset datasheet (Zenodo 15167939), Composition</td></tr><tr><td>US (HSUS)</td><td class="num">1920</td><td>1920-1928: pamphlets in the total only</td><td>HSUS 1975, p. 808, note 1</td></tr><tr><td>US (HSUS)</td><td class="num">1929</td><td>From 1929 pamphlets excluded entirely</td><td>HSUS 1975, p. 808, note 1</td></tr><tr><td>US (HSUS)</td><td class="num">1959</td><td>1959: UNESCO definition of a book adopted</td><td>HSUS 1975, p. 808, note 3; p. 803 text</td></tr><tr><td>US (HSUS)</td><td class="num">1967</td><td>1967: counted by title rather than by volume</td><td>HSUS 1975, p. 803; p. 808 note 2</td></tr><tr><td>Korea (KPA)</td><td class="num">1991</td><td>1991: first and revised editions only</td><td>KPA 2025 publishing statistics, p. 3 footnote</td></tr><tr><td>Korea (KPA)</td><td class="num">2005</td><td>2005: comics included</td><td>KPA 2025 publishing statistics, p. 3 footnote</td></tr><tr><td>Korea (KPA) copies</td><td class="num">2024</td><td>2024: method for average print run changed</td><td>KPA 2025 publishing statistics, p. 1 note</td></tr><tr><td>Japan</td><td class="num">2016</td><td>Overlap year of Shuppan Nenkan (catalog-based) and Shuppan Shihyo Nenpo (new titles shipped through distributors): 78,113 vs 75,039</td><td>Japan Statistical Yearbook table 26-8, editions 68 and 69-72</td></tr></tbody></table></div></div></details></figure>
+<p>Korea in 1991 shows the size of such a break. The Korean Publishers Association (KPA) series falls from 41,712 titles in 1990 to 22,769 in 1991. A footnote says that from that year only first and revised editions were counted. Reading the drop as a change in publishing would require separating out the part due to the new rule, and the table does not allow that. The rise to 43,598 in 2005 (from 27,527 in 2004) likewise coincides with the inclusion of comics.</p>
+<h2>An ISBN is not a title</h2>
+<p>The easiest number to find today is the count of ISBNs registered. A work issued in print, as an e-book, and in hardcover gets a separate ISBN for each. WIPO's report says this means "there will inevitably be some double counting." Japan registered 902,311 ISBNs in 2022, 717,326 more than the 184,985 of the year before; in the same year the Shuppan Shihyo Nenpo counted 66,885 new titles. Chapter 6 returns to this gap.</p>
+<h2>Rules this site follows</h2>
+<ul>
+<li>A different source gets a different line. Separate sources are not spliced into one "estimated" line.</li>
+<li>Only definition changes that a source states itself get a vertical line. Breaks we merely suspect are mentioned in the text.</li>
+<li>Counts of surviving books (early modern catalogs, old-book holdings) and counts of books published in a year (national statistics) are not drawn on the same axis.</li>
+<li>No causal claims. The text goes no further than "around this time, such and such is observed."</li>
+</ul></div><nav class="pn"><a rel="next" href="ch1.html"><small>Next</small>Chapter 1. From manuscript to print (500–1500)</a></nav></main>
+<footer>A History of Book Publishing · Version 1.0.0 · built 2026-11-07 · <a href="https://github.com/BowonKwon/Book-Publishing-History">GitHub</a> · Other sites <a href="https://bowonkwon.github.io/en/">bowonkwon.github.io</a></footer>
+<script>(function(){var k="bph-theme",r=document.documentElement,b=document.getElementById("theme");function ap(v){if(v)r.setAttribute("data-theme",v);else r.removeAttribute("data-theme");if(b)b.textContent=v==="dark"?"\u263E":v==="light"?"\u2600":"\u25D1"}var cur=localStorage.getItem(k)||"";ap(cur);if(b)b.addEventListener("click",function(){cur=cur===""?"light":cur==="light"?"dark":"";if(cur)localStorage.setItem(k,cur);else localStorage.removeItem(k);ap(cur)})})();</script></body></html>
