@@ -30,6 +30,24 @@ The CSV files in `data/` (UTF-8) hold values counted for this site from open bib
 
 Different sources are not spliced into one estimated line, and no causal claims are made. The site does not rank authors or publishers and does not cover bestseller lists.
 
+## 판 이력 · Version history
+
+판마다 자세한 내용은 사이트의 방법 면 「판 이력」에 있습니다. · Details for each version are on the site's Method page.
+
+| 판 · Version | 날짜 · Date | 바뀐 것 · Changes |
+|---|---|---|
+| 1.0.4 | 2026-11-17 | 0장 그림의 일본 2016년 점을 출처 교체로 구분(한 출처가 밝힌 정의 변경과 따로), `definition_breaks.csv` 에 kind 칸과 미국 1959년 출처 「803쪽 본문」, 5장 일본 선의 빈 해 잇지 않기, ISTC·납본 풀이. 수치 변화 없음 · Chapter 0: Japan 2016 marked as a change of source, kept apart from definition changes stated by one source; `definition_breaks.csv` gains a kind column and the US 1959 source "p. 803 text"; the Chapter 5 Japan line no longer bridges years without values; ISTC and "deposited" explained. No numerical values changed |
+| 1.0.3 | 2026-11-16 | 그래프 설명 보강(축 이름과 단위, 로그 눈금 읽는 법, 중국 선의 빈 해 잇지 않기), 휴대폰에서 그림 옆으로 넘기기, 공개 자료 허브 링크. 수치 변화 없음 · Chart explanations (axis names and units, reading log scales, China lines no longer bridge years without values), sideways scrolling on phones, hub link. No numerical values changed |
+| 1.0.2 | 2026-11-15 | 그림 둘을 다시 그림(6장 ISBN 막대 눈금, 0장 연도 글자 겹침). 수치 변화 없음 · Two charts redrawn (Chapter 6 ISBN axis, Chapter 0 year labels). No numerical values changed |
+| 1.0.1 | 2026-11-07 | 0장 단절 표의 1959년 UNESCO 정의 채택 출처를 「803쪽 본문」으로 바로잡음 · Chapter 0 breaks table: source for the 1959 UNESCO definition corrected to "p. 803 text" |
+| 1.0.0 | 2026-11-07 | 첫 공개 · First release |
+
 ## 라이선스 · License
 
 [LICENSE.md](LICENSE.md)
+
+## 일러두기 · Note
+
+이 저장소의 자료는 엮은이가 개인적으로 공부하며 엮은 것입니다. 엮은이가 속한 기관의 견해나 업무와는 관계가 없습니다.
+
+These are personal study materials and do not represent the views or work of any institution the editor belongs to.
