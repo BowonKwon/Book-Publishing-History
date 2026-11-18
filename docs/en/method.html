@@ -48,11 +48,30 @@ details{margin-top:.6rem}summary{cursor:pointer;color:var(--fg2);font-size:.88re
 .files a{display:inline-block;font-size:.85rem;background:var(--bg2);border:1px solid var(--line2);border-radius:6px;padding:.15rem .55rem;margin:.2rem .3rem .2rem 0;color:var(--fg2)}
 footer{border-top:1px solid var(--line);color:var(--fg3);font-size:.82rem;padding:1.2rem;text-align:center}
 @media(max-width:640px){header{gap:.6rem}header .right{gap:.5rem}}
+
+h2[id],h3[id],figure[id],nav.toc{scroll-margin-top:var(--hh,.9rem)}
+@media(min-width:900px){body{overflow-x:clip}h2[id],h3[id],figure[id],nav.toc{scroll-margin-top:var(--hh,3.9rem)}.sibs{top:var(--hh,3.9rem);max-height:calc(100vh - var(--hh,3.9rem) - .8rem)}}
+.hx{margin-left:.45rem;font-family:var(--body);font-size:.8em;font-weight:400;color:var(--fg3);opacity:0;transition:opacity .15s}.hx:hover{text-decoration:none;color:var(--accent)}
+h2:hover .hx,h3:hover .hx,.hx:focus-visible{opacity:1}@media(hover:none){.hx{opacity:.6}}
+nav.toc{border:1px solid var(--line);border-radius:10px;background:var(--card);padding:.7rem 1rem .8rem;margin:1.3rem 0 .2rem;font-size:.92rem;max-width:72ch}
+nav.toc b{display:block;font-size:.84rem;font-weight:600;color:var(--fg2);margin-bottom:.3rem}
+nav.toc ul{list-style:none;margin:0;padding:0;columns:2;column-gap:1.8rem;max-width:none}nav.toc li{margin:0;padding:.14rem 0;break-inside:avoid;line-height:1.5}
+@media(max-width:640px){nav.toc ul{columns:1}}
+.chlist{margin:.1rem 0 1rem;font-size:.92rem}.chlist summary{font-size:.92rem}.chlist summary small{color:var(--fg3);margin-left:.4rem}
+.chlist ol,.chlist .box{list-style:none;margin:.5rem 0 .4rem;padding:.6rem 1rem .7rem;border:1px solid var(--line);border-radius:10px;background:var(--card);max-width:72ch}
+.chlist li{margin:0;padding:.16rem 0;line-height:1.5}.chlist li small{color:var(--fg3);margin-left:.35rem;white-space:nowrap}
+.chlist a[aria-current]{color:var(--fg);font-weight:600}.chlist p{margin:.3rem 0 0;font-size:.88rem}
+.chlist .tree,.chlist .tree ul{list-style:none;margin:0;padding:0}.chlist .tree>li{padding:.3rem 0}.chlist .tree>li>a{font-weight:600}
+.chlist .tree ul{padding-left:1rem;font-size:.95em}.chlist .box b{display:block;margin:.7rem 0 .1rem;font-size:.84rem;font-weight:600;color:var(--fg2);border-top:1px solid var(--line2);padding-top:.6rem}
+.totoc{position:fixed;right:.9rem;bottom:.9rem;z-index:6;font-size:.84rem;font-weight:600;line-height:1;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:.55rem .85rem;box-shadow:var(--shadow)}
+.totoc:hover{text-decoration:none;border-color:var(--accent);color:var(--accent)}
+.navjs .totoc{opacity:0;visibility:hidden;transition:opacity .15s,visibility .15s}.navjs .totoc.show{opacity:1;visibility:visible}
+@media print{.totoc,.hx{display:none}}
 </style></head><body>
-<header><a class="brand" href="../en/index.html">A History of Book Publishing</a><nav><a href="../en/index.html">Home</a><a href="../en/ch0.html">Chapters</a><a href="../en/data.html">Data</a><a href="../en/method.html" class="on">Method</a></nav>
+<header><a class="brand" href="../en/index.html">A History of Book Publishing</a><nav><a href="../en/index.html">Home</a><a href="../en/index.html#chapters">Chapters</a><a href="../en/data.html">Data</a><a href="../en/method.html" class="on">Method</a></nav>
 <div class="right"><a class="hub" href="https://bowonkwon.github.io/en/">All public materials</a><button id="theme" class="theme" type="button" aria-label="Theme">◑</button><a class="lang" href="../ko/method.html">한국어</a></div></header>
 <main><h1>Method</h1><div class="prose"><p>This page covers where the numbers come from (three layers), the rules for the counts made here and what was changed after seeing results, checks on transcribed tables, discrepancies found between sources, what was not done, and the version history.</p>
-<h2>Three layers of numbers</h2>
+<nav class="toc" id="toc" aria-label="On this page"><b>On this page</b><ul><li><a href="#layers">Three layers of numbers</a></li><li><a href="#counting-rules">Rules for the counts made here</a></li><li><a href="#changed-after">Changed after seeing results</a></li><li><a href="#transcription-checks">Checks on transcribed tables</a></li><li><a href="#discrepancies">Discrepancies found between sources</a></li><li><a href="#not-done">What was not done</a></li><li><a href="#versions">Version history</a></li></ul></nav><h2 id="layers">Three layers of numbers<a class="hx" href="#layers" aria-label="Link to the section ‘Three layers of numbers’">#</a></h2>
 <p>The numbers on this site fall into three layers.</p>
 <div class="wrap"><table>
 <thead>
@@ -80,17 +99,17 @@ footer{border-top:1px solid var(--line);color:var(--fg3);font-size:.82rem;paddin
 </tr>
 </tbody>
 </table></div>
-<h2>Rules for the counts made here</h2>
+<h2 id="counting-rules">Rules for the counts made here<a class="hx" href="#counting-rules" aria-label="Link to the section ‘Rules for the counts made here’">#</a></h2>
 <p>The rules were written down before counting, and the time was recorded in the version history (git commits). Changes made after seeing results are listed in the next section.</p>
 <p><strong>VD16, VD17, VD18.</strong> From the merged metadata released by the Berlin State Library in 2025 (CC0, 750,342 rows), only records of physical items (bibliographic-type field beginning with A) that are monographs (a) or multivolume works as a whole (c) were counted. Single volumes (f), periodicals (b, v), and contained works (s) were left out. A VD16, VD17 or VD18 number was required. The year is the leading four-digit number of the date field (the normalized year). Records outside 1450–1830 or with no four-digit year were counted separately in the audit file (944 without a year, 6 out of range). The language is the first code in the language field; codes marking the original language of a translation ($c) are not treated as text languages.</p>
 <p><strong>STCN.</strong> From the linked data of the National Library of the Netherlands, the 217,761 entities of type "Book" in the STCN dataset were counted. The year is the first four digits of the start date of the publication event. The 19,389 records dated only to a decade or century (such as "17XX") were left out as undated. Language values have no order, so a single value is taken as the language and two or more are grouped as "multiple." The endpoint does not accept sorted queries beyond 10,000 rows, so the aggregation was done on the server.</p>
 <p><strong>ISTC.</strong> From the British Library's 2025 release (CC BY-NC 4.0), 30,587 records, the single date was used where given and otherwise the start of the date range (5,155 records). The 87 records without a date were left out. The 1,970 records dated after 1500 are counted separately; the charts show 1452–1500. Records are not republished; only counts are.</p>
 <p><strong>KORCIS.</strong> The open API of the Korean Old and Rare Collection Information System (National Library of Korea) can only be queried by search term. All results for twenty terms fixed in advance (the digits 0–9 and 卷, 朝鮮, 未詳, 集, 書, 記, 錄, 文, 經, 傳) were collected and deduplicated by record number. Searching by digits alone would favor records that print a year, so 未詳 ("unknown") and 朝鮮 (which also catches period labels such as "late Joseon") were included. These are surviving holding records, not counts of publications; one book held in several libraries appears several times.</p>
-<h2>Changed after seeing results</h2>
+<h2 id="changed-after">Changed after seeing results<a class="hx" href="#changed-after" aria-label="Link to the section ‘Changed after seeing results’">#</a></h2>
 <p>In the VD place-of-publication count, the first results showed missing places counted as a city named "nan," and the same city split between "Leipzig" and the authority-linked form "!104798998!Leipzig ; ID: gnd/4035206-7." Missing values were moved to "no place," and names were merged after removing the authority prefix and punctuation. Year and language counts were not affected.</p>
 <p>In the KORCIS year reading, a sample showed that some date fields use CJK compatibility ideographs (14,976 fields; most often U+F967 for 不), so "unknown" markers were missed. Date fields are now normalized (NFKC) before reading.</p>
 <p>Comparing with an independent recount made from the raw files and the rules above found four places where the code departed from the rules, now fixed. The ISTC count applied an undocumented year window (1440–1520) that sent 84 dated records to "undated" and missed one date written with a leading blank (" 1485"). In KORCIS, 明治, 大正 and 昭和 were missing from the era list, so 55 records fell into "other." The exact grouping key for KORCIS and the handling of quotation marks in VD place lists were also corrected. The values on this site are those after the fixes.</p>
-<h2>Checks on transcribed tables</h2>
+<h2 id="transcription-checks">Checks on transcribed tables<a class="hx" href="#transcription-checks" aria-label="Link to the section ‘Checks on transcribed tables’">#</a></h2>
 <div class="wrap"><table>
 <thead>
 <tr>
@@ -122,7 +141,7 @@ footer{border-top:1px solid var(--line);color:var(--fg3);font-size:.82rem;paddin
 </tr>
 </tbody>
 </table></div>
-<h2>Discrepancies found between sources</h2>
+<h2 id="discrepancies">Discrepancies found between sources<a class="hx" href="#discrepancies" aria-label="Link to the section ‘Discrepancies found between sources’">#</a></h2>
 <ul>
 <li>China, new titles in 1990: 55,254 in the 1999 yearbook, 55,245 in the 2024 yearbook.</li>
 <li>Gosa chwaryo woodblock list: provincial counts sum to 987; the stated total is 989 (Encyclopedia of Korean Culture).</li>
@@ -130,19 +149,20 @@ footer{border-top:1px solid var(--line);color:var(--fg3);font-size:.82rem;paddin
 <li>Our World in Data printed-book table: the notes give the unit as "title or edition," but the values are about 441 times the number of ISTC editions for the same period.</li>
 <li>Korean Publishers Association series: the number of publishers goes from 1,962 in 1969 to 1,016 in 1970, and copies from 157,510,364 in 1998 to 75,840,951 in 1999, with no change of definition noted in the footnotes for either.</li>
 </ul>
-<h2>What was not done</h2>
+<h2 id="not-done">What was not done<a class="hx" href="#not-done" aria-label="Link to the section ‘What was not done’">#</a></h2>
 <ul>
 <li>Separate sources were not spliced into one line.</li>
 <li>No new per capita values were computed (only the Fink-Jensen table was redrawn).</li>
 <li>Rankings of authors or publishers, bestseller lists, and the share of women authors are not covered.</li>
 </ul>
-<h2>Version history</h2>
+<h2 id="versions">Version history<a class="hx" href="#versions" aria-label="Link to the section ‘Version history’">#</a></h2>
 <ul>
 <li>1.0.0 — First release.</li>
 <li>1.0.1 (2026-11-07) — Chapter 0 breaks table: the source for the 1959 adoption of the UNESCO definition corrected from "p. 808, note 3" to "p. 803 text"; note 3 only says the definition changed and does not name UNESCO. No numerical values changed.</li>
 <li>1.0.2 (2026-11-15) — Two figures redrawn. In Chapter 6, "New titles and ISBN registrations in the same year (2022)," the top tick of the vertical axis was 800,000, so the bar for Japan's ISBN registrations (902,311) and its value ran off the top of the figure; the axis now reaches 1,000,000. In Chapter 0, year labels of breaks close together (1920 and 1929, and others) ran into each other; they now alternate above and below the dots. No numerical values changed.</li>
 <li>1.0.3 (2026-11-16) — Chart explanations filled in. Every chart names its vertical and horizontal axes, with units, inside the figure. The five log-scale charts (manuscripts in Chapter 1, editions per year in Chapter 2, titles per capita in Chapter 4, the three countries in Chapter 5 and on the home page) say how to read the scale, and the Chapter 1 manuscript bars warn that bar length is not proportional to the value. The Latin and places-of-publication charts in Chapter 2 also say what the dotted vertical lines are. The China lines in Chapters 5 and 6 were redrawn so that they no longer bridge years without values (dots and values unchanged). The home-page chart has a reading line, and the Chapter 0 chart explains the 2024 dot that is not in the table in the text and spells out abbreviations. The source column of the Korean tables is written in Korean. On phones charts keep a width of at least 840px and scroll sideways. The header links to the hub of public materials. No numerical values changed.</li>
 <li>1.0.4 (2026-11-17) — In the Chapter 0 chart of definition changes, the 2016 dot for Japan marks a change of source in the Japan Statistical Yearbook (between two sources that count different things), not a definition change stated by one source; it is now a hollow dot, and the chart title, caption, the table in the text and the data file (a kind column in <code>definition_breaks.csv</code>) call it a change of source. In the same file the source for the US 1959 break now matches the text (since 1.0.1): "p. 803 text," with the sentence from p. 803. The Japan (Shuppan Nenkan) line in Chapter 5 and on the home page no longer bridges 2010 to 2013 (2011 and 2012 have no values); the 2010 value, with no values in the years on either side, is drawn as a dot (dots and values unchanged). Chapter 1 explains ISTC and Chapter 5 explains "deposited." After the verification round: the data page reads "normalized," and the 1.0.1 line above says "No numerical values changed" as the Korean does. The dotted vertical lines in the charts are read from the series list (<code>registry.py</code>), which the generator checks against the list of breaks. No numerical values changed.</li>
-</ul></div></main>
-<footer>A History of Book Publishing · Version 1.0.4 · built 2026-11-17 · <a href="https://github.com/BowonKwon/Book-Publishing-History">GitHub</a> · Other sites <a href="https://bowonkwon.github.io/en/">bowonkwon.github.io</a></footer>
-<script>(function(){var k="bph-theme",r=document.documentElement,b=document.getElementById("theme");function ap(v){if(v)r.setAttribute("data-theme",v);else r.removeAttribute("data-theme");if(b)b.textContent=v==="dark"?"\u263E":v==="light"?"\u2600":"\u25D1"}var cur=localStorage.getItem(k)||"";ap(cur);if(b)b.addEventListener("click",function(){cur=cur===""?"light":cur==="light"?"dark":"";if(cur)localStorage.setItem(k,cur);else localStorage.removeItem(k);ap(cur)})})();</script></body></html>
+<li>1.0.5 (2026-11-18) — Straight from the contents to a chapter or section: a chapter list at the head of each chapter, a section list on pages with three or more sections, and a link on every section heading. The home page has full contents by chapter and section. On wide screens the top menu stays on screen. Text and numbers are unchanged.</li>
+</ul><a class="totoc" href="#toc" aria-label="Back to the section list of this page">↑ Contents</a></div></main>
+<footer>A History of Book Publishing · Version 1.0.5 · built 2026-11-18 · <a href="https://github.com/BowonKwon/Book-Publishing-History">GitHub</a> · Other sites <a href="https://bowonkwon.github.io/en/">bowonkwon.github.io</a></footer>
+<script>(function(){var k="bph-theme",r=document.documentElement,b=document.getElementById("theme");function ap(v){if(v)r.setAttribute("data-theme",v);else r.removeAttribute("data-theme");if(b)b.textContent=v==="dark"?"\u263E":v==="light"?"\u2600":"\u25D1"}var cur=localStorage.getItem(k)||"";ap(cur);if(b)b.addEventListener("click",function(){cur=cur===""?"light":cur==="light"?"dark":"";if(cur)localStorage.setItem(k,cur);else localStorage.removeItem(k);ap(cur)})})();(function(){var d=document,r=d.documentElement,h=d.querySelector("header"),SF=900,m=SF&&window.matchMedia?matchMedia("(min-width:"+SF+"px)"):null;r.classList.add("navjs");function gap(){var on=h&&m&&m.matches&&window.CSS&&CSS.supports&&CSS.supports("overflow-x","clip");r.style.setProperty("--hh",on?(h.offsetHeight+12)+"px":".9rem")}gap();addEventListener("resize",gap);addEventListener("load",gap);var c=d.querySelector("nav.toc"),p=d.querySelector(".totoc");function pill(){p.classList.toggle("show",c.getBoundingClientRect().bottom<0)}if(c&&p){addEventListener("scroll",pill,{passive:true});addEventListener("resize",pill);pill()}var ls=d.querySelectorAll("header a.lang,header .lang a");for(var i=0;i<ls.length;i++)(function(l){l.addEventListener("click",function(){if(location.hash&&(l.getAttribute("href")||"").indexOf("http")!==0)l.href=l.href.split("#")[0]+location.hash})})(ls[i])})();</script></body></html>
